@@ -1,0 +1,43 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql5-170426587d6-468ae5a3f7d66f08": {
+			"provider": "mysql",
+			"driver": "mysql5",
+			"name": "MySQL - ncs_test_js",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "ncs_test_js",
+				"url": "jdbc:mysql://localhost:3306/ncs_test_js",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 5.7",
+				"type": "dev"
+			}
+		}
+	},
+	"virtual-models": {
+		"mysql5-170426587d6-468ae5a3f7d66f08": {
+			"ncs_test_js": {
+				":employee": {
+					"properties": {
+						"erd.diagram.state": {
+							"serialized": "<diagram version=\"1\" name=\"employee\" time=\"202002141704\"><entities><data-source id=\"mysql5-170426587d6-468ae5a3f7d66f08\"><entity id=\"1\" name=\"employee\" fq-name=\"ncs_test_js.employee\" order=\"0\" color-bg=\"124,62,31\" x=\"20\" y=\"39\"><path name=\"ncs_test_js\"/></entity><entity id=\"2\" name=\"department\" fq-name=\"ncs_test_js.department\" order=\"1\" x=\"153\" y=\"20\"><path name=\"ncs_test_js\"/></entity><entity id=\"3\" name=\"title\" fq-name=\"ncs_test_js.title\" order=\"2\" x=\"153\" y=\"143\"><path name=\"ncs_test_js\"/></entity></data-source></entities><relations/></diagram>"
+						}
+					}
+				}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}

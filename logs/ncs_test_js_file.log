@@ -1,0 +1,1975 @@
+[TRACE] [2020-02-14 15:39:06] setUpBeforeClass()
+[TRACE] [2020-02-14 15:39:06] setUp()
+[TRACE] [2020-02-14 15:39:06] test()
+[TRACE] [2020-02-14 15:39:06] HikariProxyConnection@381678167 wrapping com.mysql.jdbc.JDBC4Connection@5c2e5c5a
+[TRACE] [2020-02-14 15:39:06] tearDown()
+[TRACE] [2020-02-14 15:39:06] tearDownAfterClass()
+[TRACE] [2020-02-14 15:40:33] setUpBeforeClass()
+[TRACE] [2020-02-14 15:40:33] setUp()
+[TRACE] [2020-02-14 15:40:33] test01SelectDepartmentByNo()
+[TRACE] [2020-02-14 15:40:33] pstmt - select dept_no, dept_name, floor from department where dept_no = 1
+[TRACE] [2020-02-14 15:40:33] Department [deptNo=1, deptName=øµæ˜, floor=8]
+[TRACE] [2020-02-14 15:40:33] tearDown()
+[TRACE] [2020-02-14 15:40:33] setUp()
+[TRACE] [2020-02-14 15:40:33] test02SelectDepartmentByAll()
+[TRACE] [2020-02-14 15:40:33] Department [deptNo=1, deptName=øµæ˜, floor=8]
+[TRACE] [2020-02-14 15:40:33] Department [deptNo=2, deptName=±‚»π, floor=10]
+[TRACE] [2020-02-14 15:40:33] Department [deptNo=3, deptName=∞≥πﬂ, floor=9]
+[TRACE] [2020-02-14 15:40:33] Department [deptNo=4, deptName=√—π´, floor=7]
+[TRACE] [2020-02-14 15:40:33] tearDown()
+[TRACE] [2020-02-14 15:40:33] setUp()
+[TRACE] [2020-02-14 15:40:33] test03InserDepartment()
+[TRACE] [2020-02-14 15:40:33] pstmt - insert into department values(5, '∏∂ƒ…∆√', 12)
+[TRACE] [2020-02-14 15:40:33] tearDown()
+[TRACE] [2020-02-14 15:40:33] setUp()
+[TRACE] [2020-02-14 15:40:33] test04UpdateDepartment()
+[TRACE] [2020-02-14 15:40:33] pstmt - update department set dept_name = '∏πŸ¿œ∞≥πﬂ', floor = 11 where dept_no = 5
+[TRACE] [2020-02-14 15:40:33] tearDown()
+[TRACE] [2020-02-14 15:40:33] setUp()
+[TRACE] [2020-02-14 15:40:33] test05DeleteDepartment()
+[TRACE] [2020-02-14 15:40:33] pstmt - delete from department where dept_no = 5
+[TRACE] [2020-02-14 15:40:33] tearDown()
+[TRACE] [2020-02-14 15:40:33] tearDownAfterClass()
+[TRACE] [2020-02-14 15:40:33] setUpBeforeClass()
+[TRACE] [2020-02-14 15:40:33] setUp()
+[TRACE] [2020-02-14 15:40:33] test01SelectTitleByNo()
+[TRACE] [2020-02-14 15:40:33] pstmt - select title_no, title_name from title where title_no=1
+[TRACE] [2020-02-14 15:40:33] Title [titleNo=1, titleName=ªÁ¿Â]
+[TRACE] [2020-02-14 15:40:33] tearDown()
+[TRACE] [2020-02-14 15:40:33] setUp()
+[TRACE] [2020-02-14 15:40:33] test02SelectTitleByAll()
+[TRACE] [2020-02-14 15:40:33] Title [titleNo=1, titleName=ªÁ¿Â]
+[TRACE] [2020-02-14 15:40:33] Title [titleNo=2, titleName=∫Œ¿Â]
+[TRACE] [2020-02-14 15:40:33] Title [titleNo=3, titleName=∞˙¿Â]
+[TRACE] [2020-02-14 15:40:33] Title [titleNo=4, titleName=¥Î∏Æ]
+[TRACE] [2020-02-14 15:40:33] Title [titleNo=5, titleName=ªÁø¯]
+[TRACE] [2020-02-14 15:40:33] tearDown()
+[TRACE] [2020-02-14 15:40:33] setUp()
+[TRACE] [2020-02-14 15:40:33] test03InsertTitle()
+[TRACE] [2020-02-14 15:40:33] pstmt - insert into title values (6,'¿Œ≈œ')
+[TRACE] [2020-02-14 15:40:33] tearDown()
+[TRACE] [2020-02-14 15:40:33] setUp()
+[TRACE] [2020-02-14 15:40:33] test04UpdateTitle()
+[TRACE] [2020-02-14 15:40:33] pstmt - update title set title_name = '»∏¿Â' where title_no = 1
+[TRACE] [2020-02-14 15:40:33] tearDown()
+[TRACE] [2020-02-14 15:40:33] setUp()
+[TRACE] [2020-02-14 15:40:33] test05DeleteTitle()
+[TRACE] [2020-02-14 15:40:33] pstmt - delete from title where title_no = 6
+[TRACE] [2020-02-14 15:40:33] tearDown()
+[TRACE] [2020-02-14 15:40:33] tearDownAfterClass()
+[TRACE] [2020-02-14 15:40:33] setUpBeforeClass()
+[TRACE] [2020-02-14 15:40:33] setUp()
+[TRACE] [2020-02-14 15:40:33] test()
+[TRACE] [2020-02-14 15:40:33] HikariProxyConnection@698342850 wrapping com.mysql.jdbc.JDBC4Connection@1302d0fe
+[TRACE] [2020-02-14 15:40:33] tearDown()
+[TRACE] [2020-02-14 15:40:33] tearDownAfterClass()
+[TRACE] [2020-02-14 16:18:37] setUpBeforeClass()
+[TRACE] [2020-02-14 16:18:37] setUp()
+[TRACE] [2020-02-14 16:18:37] test01SelectDepartmentByNo()
+[TRACE] [2020-02-14 16:18:37] pstmt - select dept_no, dept_name, floor from department where dept_no = 1
+[TRACE] [2020-02-14 16:18:37] Department [deptNo=1, deptName=øµæ˜, floor=8]
+[TRACE] [2020-02-14 16:18:37] tearDown()
+[TRACE] [2020-02-14 16:18:37] setUp()
+[TRACE] [2020-02-14 16:18:37] test02SelectDepartmentByAll()
+[TRACE] [2020-02-14 16:18:37] Department [deptNo=1, deptName=øµæ˜, floor=8]
+[TRACE] [2020-02-14 16:18:37] Department [deptNo=2, deptName=±‚»π, floor=10]
+[TRACE] [2020-02-14 16:18:37] Department [deptNo=3, deptName=∞≥πﬂ, floor=9]
+[TRACE] [2020-02-14 16:18:37] Department [deptNo=4, deptName=√—π´, floor=7]
+[TRACE] [2020-02-14 16:18:37] tearDown()
+[TRACE] [2020-02-14 16:18:37] setUp()
+[TRACE] [2020-02-14 16:18:37] test03InserDepartment()
+[TRACE] [2020-02-14 16:18:37] pstmt - insert into department values(5, '∏∂ƒ…∆√', 12)
+[TRACE] [2020-02-14 16:18:37] tearDown()
+[TRACE] [2020-02-14 16:18:37] setUp()
+[TRACE] [2020-02-14 16:18:37] test04UpdateDepartment()
+[TRACE] [2020-02-14 16:18:37] pstmt - update department set dept_name = '∏πŸ¿œ∞≥πﬂ', floor = 11 where dept_no = 5
+[TRACE] [2020-02-14 16:18:37] tearDown()
+[TRACE] [2020-02-14 16:18:37] setUp()
+[TRACE] [2020-02-14 16:18:37] test05DeleteDepartment()
+[TRACE] [2020-02-14 16:18:37] pstmt - delete from department where dept_no = 5
+[TRACE] [2020-02-14 16:18:37] tearDown()
+[TRACE] [2020-02-14 16:18:37] tearDownAfterClass()
+[TRACE] [2020-02-14 16:18:37] setUpBeforeClass()
+[TRACE] [2020-02-14 16:18:37] setUp()
+[TRACE] [2020-02-14 16:18:37] test01SelectEmployeeByNo()
+[TRACE] [2020-02-14 16:18:37] pstmt - select emp_no, emp_name, title, salary, gender, dept, hire_date from employee where emp_no = 1003
+[TRACE] [2020-02-14 16:18:37] Employee [empNo=1003, empName=¡∂πŒ»Ò, title=Title [titleNo=3, titleName=null], salary=3000000, gender=1, dept=Department [deptNo=2, deptName=null, floor=0], hireDate=2005-07-01 00:00:00.0]
+[TRACE] [2020-02-14 16:18:37] 2005-07-01 - 00:00:00 2005≥‚ 07ø˘ 01¿œ 00Ω√ 00∫– 00√  
+[TRACE] [2020-02-14 16:18:37] 2005 ≥‚
+[TRACE] [2020-02-14 16:18:37] 7 ø˘
+[TRACE] [2020-02-14 16:18:37] 1 ¿œ
+[TRACE] [2020-02-14 16:18:37] 0Ω√ 0∫– 0√ 
+[TRACE] [2020-02-14 16:18:37] tearDown()
+[TRACE] [2020-02-14 16:18:37] setUp()
+[TRACE] [2020-02-14 16:18:37] test02SelectEmployeeByAll()
+[TRACE] [2020-02-14 16:18:37] tearDown()
+[TRACE] [2020-02-14 16:18:37] setUp()
+[TRACE] [2020-02-14 16:18:37] test03InsertEmployee()
+[TRACE] [2020-02-14 16:18:37] tearDown()
+[TRACE] [2020-02-14 16:18:37] setUp()
+[TRACE] [2020-02-14 16:18:37] test04UpdateEmployee()
+[TRACE] [2020-02-14 16:18:37] tearDown()
+[TRACE] [2020-02-14 16:18:37] setUp()
+[TRACE] [2020-02-14 16:18:37] test05DeleteEmployee()
+[TRACE] [2020-02-14 16:18:37] tearDown()
+[TRACE] [2020-02-14 16:18:37] tearDownAfterClass()
+[TRACE] [2020-02-14 16:18:37] setUpBeforeClass()
+[TRACE] [2020-02-14 16:18:37] setUp()
+[TRACE] [2020-02-14 16:18:37] test01SelectTitleByNo()
+[TRACE] [2020-02-14 16:18:37] pstmt - select title_no, title_name from title where title_no=1
+[TRACE] [2020-02-14 16:18:37] Title [titleNo=1, titleName=»∏¿Â]
+[TRACE] [2020-02-14 16:18:37] tearDown()
+[TRACE] [2020-02-14 16:18:37] setUp()
+[TRACE] [2020-02-14 16:18:37] test02SelectTitleByAll()
+[TRACE] [2020-02-14 16:18:37] Title [titleNo=1, titleName=»∏¿Â]
+[TRACE] [2020-02-14 16:18:37] Title [titleNo=2, titleName=∫Œ¿Â]
+[TRACE] [2020-02-14 16:18:37] Title [titleNo=3, titleName=∞˙¿Â]
+[TRACE] [2020-02-14 16:18:37] Title [titleNo=4, titleName=¥Î∏Æ]
+[TRACE] [2020-02-14 16:18:37] Title [titleNo=5, titleName=ªÁø¯]
+[TRACE] [2020-02-14 16:18:37] tearDown()
+[TRACE] [2020-02-14 16:18:37] setUp()
+[TRACE] [2020-02-14 16:18:37] test03InsertTitle()
+[TRACE] [2020-02-14 16:18:37] pstmt - insert into title values (6,'¿Œ≈œ')
+[TRACE] [2020-02-14 16:18:37] tearDown()
+[TRACE] [2020-02-14 16:18:37] setUp()
+[TRACE] [2020-02-14 16:18:37] test04UpdateTitle()
+[TRACE] [2020-02-14 16:18:37] pstmt - update title set title_name = '»∏¿Â' where title_no = 1
+[TRACE] [2020-02-14 16:18:37] tearDown()
+[TRACE] [2020-02-14 16:18:37] setUp()
+[TRACE] [2020-02-14 16:18:37] test05DeleteTitle()
+[TRACE] [2020-02-14 16:18:37] pstmt - delete from title where title_no = 6
+[TRACE] [2020-02-14 16:18:37] tearDown()
+[TRACE] [2020-02-14 16:18:37] tearDownAfterClass()
+[TRACE] [2020-02-14 16:18:37] setUpBeforeClass()
+[TRACE] [2020-02-14 16:18:37] setUp()
+[TRACE] [2020-02-14 16:18:37] test()
+[TRACE] [2020-02-14 16:18:37] HikariProxyConnection@1136940170 wrapping com.mysql.jdbc.JDBC4Connection@47dc223b
+[TRACE] [2020-02-14 16:18:37] tearDown()
+[TRACE] [2020-02-14 16:18:37] tearDownAfterClass()
+[TRACE] [2020-02-14 16:19:43] setUpBeforeClass()
+[TRACE] [2020-02-14 16:19:43] setUp()
+[TRACE] [2020-02-14 16:19:43] test01SelectEmployeeByNo()
+[TRACE] [2020-02-14 16:19:43] pstmt - select emp_no, emp_name, title, salary, gender, dept, hire_date from employee where emp_no = 1003
+[TRACE] [2020-02-14 16:19:43] Employee [empNo=1003, empName=¡∂πŒ»Ò, title=Title [titleNo=3, titleName=null], salary=3000000, gender=1, dept=Department [deptNo=2, deptName=null, floor=0], hireDate=2005-07-01 00:00:00.0]
+[TRACE] [2020-02-14 16:19:43] 2005-07-01 - 00:00:00 2005≥‚ 07ø˘ 01¿œ 00Ω√ 00∫– 00√  
+[TRACE] [2020-02-14 16:19:43] 2005 ≥‚
+[TRACE] [2020-02-14 16:19:43] 7 ø˘
+[TRACE] [2020-02-14 16:19:43] 1 ¿œ
+[TRACE] [2020-02-14 16:19:43] 0Ω√ 0∫– 0√ 
+[TRACE] [2020-02-14 16:19:43] tearDown()
+[TRACE] [2020-02-14 16:19:43] setUp()
+[TRACE] [2020-02-14 16:19:43] test02SelectEmployeeByAll()
+[TRACE] [2020-02-14 16:19:43] tearDown()
+[TRACE] [2020-02-14 16:19:43] setUp()
+[TRACE] [2020-02-14 16:19:43] test03InsertEmployee()
+[TRACE] [2020-02-14 16:19:43] tearDown()
+[TRACE] [2020-02-14 16:19:43] setUp()
+[TRACE] [2020-02-14 16:19:43] test04UpdateEmployee()
+[TRACE] [2020-02-14 16:19:43] tearDown()
+[TRACE] [2020-02-14 16:19:43] setUp()
+[TRACE] [2020-02-14 16:19:43] test05DeleteEmployee()
+[TRACE] [2020-02-14 16:19:43] tearDown()
+[TRACE] [2020-02-14 16:19:43] tearDownAfterClass()
+[TRACE] [2020-02-14 16:19:43] setUpBeforeClass()
+[TRACE] [2020-02-14 16:19:43] setUp()
+[TRACE] [2020-02-14 16:19:43] test01SelectDepartmentByNo()
+[TRACE] [2020-02-14 16:19:43] pstmt - select dept_no, dept_name, floor from department where dept_no = 1
+[TRACE] [2020-02-14 16:19:43] Department [deptNo=1, deptName=øµæ˜, floor=8]
+[TRACE] [2020-02-14 16:19:43] tearDown()
+[TRACE] [2020-02-14 16:19:43] setUp()
+[TRACE] [2020-02-14 16:19:43] test02SelectDepartmentByAll()
+[TRACE] [2020-02-14 16:19:43] Department [deptNo=1, deptName=øµæ˜, floor=8]
+[TRACE] [2020-02-14 16:19:43] Department [deptNo=2, deptName=±‚»π, floor=10]
+[TRACE] [2020-02-14 16:19:43] Department [deptNo=3, deptName=∞≥πﬂ, floor=9]
+[TRACE] [2020-02-14 16:19:43] Department [deptNo=4, deptName=√—π´, floor=7]
+[TRACE] [2020-02-14 16:19:43] tearDown()
+[TRACE] [2020-02-14 16:19:43] setUp()
+[TRACE] [2020-02-14 16:19:43] test03InserDepartment()
+[TRACE] [2020-02-14 16:19:43] pstmt - insert into department values(5, '∏∂ƒ…∆√', 12)
+[TRACE] [2020-02-14 16:19:43] tearDown()
+[TRACE] [2020-02-14 16:19:43] setUp()
+[TRACE] [2020-02-14 16:19:43] test04UpdateDepartment()
+[TRACE] [2020-02-14 16:19:43] pstmt - update department set dept_name = '∏πŸ¿œ∞≥πﬂ', floor = 11 where dept_no = 5
+[TRACE] [2020-02-14 16:19:43] tearDown()
+[TRACE] [2020-02-14 16:19:43] setUp()
+[TRACE] [2020-02-14 16:19:43] test05DeleteDepartment()
+[TRACE] [2020-02-14 16:19:43] pstmt - delete from department where dept_no = 5
+[TRACE] [2020-02-14 16:19:43] tearDown()
+[TRACE] [2020-02-14 16:19:43] tearDownAfterClass()
+[TRACE] [2020-02-14 16:19:43] setUpBeforeClass()
+[TRACE] [2020-02-14 16:19:43] setUp()
+[TRACE] [2020-02-14 16:19:43] test01SelectTitleByNo()
+[TRACE] [2020-02-14 16:19:43] pstmt - select title_no, title_name from title where title_no=1
+[TRACE] [2020-02-14 16:19:43] Title [titleNo=1, titleName=»∏¿Â]
+[TRACE] [2020-02-14 16:19:43] tearDown()
+[TRACE] [2020-02-14 16:19:43] setUp()
+[TRACE] [2020-02-14 16:19:43] test02SelectTitleByAll()
+[TRACE] [2020-02-14 16:19:43] Title [titleNo=1, titleName=»∏¿Â]
+[TRACE] [2020-02-14 16:19:43] Title [titleNo=2, titleName=∫Œ¿Â]
+[TRACE] [2020-02-14 16:19:43] Title [titleNo=3, titleName=∞˙¿Â]
+[TRACE] [2020-02-14 16:19:43] Title [titleNo=4, titleName=¥Î∏Æ]
+[TRACE] [2020-02-14 16:19:43] Title [titleNo=5, titleName=ªÁø¯]
+[TRACE] [2020-02-14 16:19:43] tearDown()
+[TRACE] [2020-02-14 16:19:43] setUp()
+[TRACE] [2020-02-14 16:19:43] test03InsertTitle()
+[TRACE] [2020-02-14 16:19:43] pstmt - insert into title values (6,'¿Œ≈œ')
+[TRACE] [2020-02-14 16:19:43] tearDown()
+[TRACE] [2020-02-14 16:19:43] setUp()
+[TRACE] [2020-02-14 16:19:43] test04UpdateTitle()
+[TRACE] [2020-02-14 16:19:43] pstmt - update title set title_name = '»∏¿Â' where title_no = 1
+[TRACE] [2020-02-14 16:19:43] tearDown()
+[TRACE] [2020-02-14 16:19:43] setUp()
+[TRACE] [2020-02-14 16:19:43] test05DeleteTitle()
+[TRACE] [2020-02-14 16:19:43] pstmt - delete from title where title_no = 6
+[TRACE] [2020-02-14 16:19:43] tearDown()
+[TRACE] [2020-02-14 16:19:43] tearDownAfterClass()
+[TRACE] [2020-02-14 16:19:43] setUpBeforeClass()
+[TRACE] [2020-02-14 16:19:43] setUp()
+[TRACE] [2020-02-14 16:19:43] test()
+[TRACE] [2020-02-14 16:19:43] HikariProxyConnection@1205609019 wrapping com.mysql.jdbc.JDBC4Connection@6f498e84
+[TRACE] [2020-02-14 16:19:43] tearDown()
+[TRACE] [2020-02-14 16:19:43] tearDownAfterClass()
+[TRACE] [2020-02-14 16:23:22] setUpBeforeClass()
+[TRACE] [2020-02-14 16:23:22] setUp()
+[TRACE] [2020-02-14 16:23:22] test01SelectEmployeeByNo()
+[TRACE] [2020-02-14 16:23:22] pstmt - select emp_no, emp_name, title, salary, gender, dept, hire_date from employee where emp_no = 1003
+[TRACE] [2020-02-14 16:23:22] Employee [empNo=1003, empName=¡∂πŒ»Ò, title=Title [titleNo=3, titleName=null], salary=3000000, gender=1, dept=Department [deptNo=2, deptName=null, floor=0], hireDate=2005-07-01 00:00:00.0]
+[TRACE] [2020-02-14 16:23:22] 2005-07-01 - 00:00:00 2005≥‚ 07ø˘ 01¿œ 00Ω√ 00∫– 00√  
+[TRACE] [2020-02-14 16:23:22] 2005 ≥‚
+[TRACE] [2020-02-14 16:23:22] 7 ø˘
+[TRACE] [2020-02-14 16:23:22] 1 ¿œ
+[TRACE] [2020-02-14 16:23:22] 0Ω√ 0∫– 0√ 
+[TRACE] [2020-02-14 16:23:22] tearDown()
+[TRACE] [2020-02-14 16:23:22] setUp()
+[TRACE] [2020-02-14 16:23:22] test02SelectEmployeeByAll()
+[TRACE] [2020-02-14 16:23:22] tearDown()
+[TRACE] [2020-02-14 16:23:22] setUp()
+[TRACE] [2020-02-14 16:23:22] test03InsertEmployee()
+[TRACE] [2020-02-14 16:23:22] Employee [empNo=1006, empName=¿Ã¿Ø∏Æ, title=Title [titleNo=3, titleName=null], salary=3000000, gender=1, dept=Department [deptNo=2, deptName=null, floor=0], hireDate=Fri Feb 14 16:23:22 KST 2020]
+[TRACE] [2020-02-14 16:23:22] pstmt - insert into employee (emp_no, emp_name, title, salary, gender, dept, hire_date) values (1006,'¿Ã¿Ø∏Æ',3,3000000,1,2,'2020-02-14 16:23:22.678')
+[TRACE] [2020-02-14 16:23:22] tearDown()
+[TRACE] [2020-02-14 16:23:22] setUp()
+[TRACE] [2020-02-14 16:23:22] test04UpdateEmployee()
+[TRACE] [2020-02-14 16:23:22] tearDown()
+[TRACE] [2020-02-14 16:23:22] setUp()
+[TRACE] [2020-02-14 16:23:22] test05DeleteEmployee()
+[TRACE] [2020-02-14 16:23:22] tearDown()
+[TRACE] [2020-02-14 16:23:22] tearDownAfterClass()
+[TRACE] [2020-02-14 16:23:22] setUpBeforeClass()
+[TRACE] [2020-02-14 16:23:22] setUp()
+[TRACE] [2020-02-14 16:23:22] test01SelectDepartmentByNo()
+[TRACE] [2020-02-14 16:23:22] pstmt - select dept_no, dept_name, floor from department where dept_no = 1
+[TRACE] [2020-02-14 16:23:22] Department [deptNo=1, deptName=øµæ˜, floor=8]
+[TRACE] [2020-02-14 16:23:22] tearDown()
+[TRACE] [2020-02-14 16:23:22] setUp()
+[TRACE] [2020-02-14 16:23:22] test02SelectDepartmentByAll()
+[TRACE] [2020-02-14 16:23:22] Department [deptNo=1, deptName=øµæ˜, floor=8]
+[TRACE] [2020-02-14 16:23:22] Department [deptNo=2, deptName=±‚»π, floor=10]
+[TRACE] [2020-02-14 16:23:22] Department [deptNo=3, deptName=∞≥πﬂ, floor=9]
+[TRACE] [2020-02-14 16:23:22] Department [deptNo=4, deptName=√—π´, floor=7]
+[TRACE] [2020-02-14 16:23:22] tearDown()
+[TRACE] [2020-02-14 16:23:22] setUp()
+[TRACE] [2020-02-14 16:23:22] test03InserDepartment()
+[TRACE] [2020-02-14 16:23:22] pstmt - insert into department values(5, '∏∂ƒ…∆√', 12)
+[TRACE] [2020-02-14 16:23:22] tearDown()
+[TRACE] [2020-02-14 16:23:22] setUp()
+[TRACE] [2020-02-14 16:23:22] test04UpdateDepartment()
+[TRACE] [2020-02-14 16:23:22] pstmt - update department set dept_name = '∏πŸ¿œ∞≥πﬂ', floor = 11 where dept_no = 5
+[TRACE] [2020-02-14 16:23:22] tearDown()
+[TRACE] [2020-02-14 16:23:22] setUp()
+[TRACE] [2020-02-14 16:23:22] test05DeleteDepartment()
+[TRACE] [2020-02-14 16:23:22] pstmt - delete from department where dept_no = 5
+[TRACE] [2020-02-14 16:23:22] tearDown()
+[TRACE] [2020-02-14 16:23:22] tearDownAfterClass()
+[TRACE] [2020-02-14 16:23:22] setUpBeforeClass()
+[TRACE] [2020-02-14 16:23:22] setUp()
+[TRACE] [2020-02-14 16:23:22] test01SelectTitleByNo()
+[TRACE] [2020-02-14 16:23:22] pstmt - select title_no, title_name from title where title_no=1
+[TRACE] [2020-02-14 16:23:22] Title [titleNo=1, titleName=»∏¿Â]
+[TRACE] [2020-02-14 16:23:22] tearDown()
+[TRACE] [2020-02-14 16:23:22] setUp()
+[TRACE] [2020-02-14 16:23:22] test02SelectTitleByAll()
+[TRACE] [2020-02-14 16:23:22] Title [titleNo=1, titleName=»∏¿Â]
+[TRACE] [2020-02-14 16:23:22] Title [titleNo=2, titleName=∫Œ¿Â]
+[TRACE] [2020-02-14 16:23:22] Title [titleNo=3, titleName=∞˙¿Â]
+[TRACE] [2020-02-14 16:23:22] Title [titleNo=4, titleName=¥Î∏Æ]
+[TRACE] [2020-02-14 16:23:22] Title [titleNo=5, titleName=ªÁø¯]
+[TRACE] [2020-02-14 16:23:22] tearDown()
+[TRACE] [2020-02-14 16:23:22] setUp()
+[TRACE] [2020-02-14 16:23:22] test03InsertTitle()
+[TRACE] [2020-02-14 16:23:22] pstmt - insert into title values (6,'¿Œ≈œ')
+[TRACE] [2020-02-14 16:23:22] tearDown()
+[TRACE] [2020-02-14 16:23:22] setUp()
+[TRACE] [2020-02-14 16:23:22] test04UpdateTitle()
+[TRACE] [2020-02-14 16:23:22] pstmt - update title set title_name = '»∏¿Â' where title_no = 1
+[TRACE] [2020-02-14 16:23:22] tearDown()
+[TRACE] [2020-02-14 16:23:22] setUp()
+[TRACE] [2020-02-14 16:23:22] test05DeleteTitle()
+[TRACE] [2020-02-14 16:23:22] pstmt - delete from title where title_no = 6
+[TRACE] [2020-02-14 16:23:22] tearDown()
+[TRACE] [2020-02-14 16:23:22] tearDownAfterClass()
+[TRACE] [2020-02-14 16:23:22] setUpBeforeClass()
+[TRACE] [2020-02-14 16:23:22] setUp()
+[TRACE] [2020-02-14 16:23:22] test()
+[TRACE] [2020-02-14 16:23:22] HikariProxyConnection@443178561 wrapping com.mysql.jdbc.JDBC4Connection@39f4ce26
+[TRACE] [2020-02-14 16:23:22] tearDown()
+[TRACE] [2020-02-14 16:23:22] tearDownAfterClass()
+[TRACE] [2020-02-14 16:24:45] setUpBeforeClass()
+[TRACE] [2020-02-14 16:24:45] setUp()
+[TRACE] [2020-02-14 16:24:45] test01SelectEmployeeByNo()
+[TRACE] [2020-02-14 16:24:45] pstmt - select emp_no, emp_name, title, salary, gender, dept, hire_date from employee where emp_no = 1003
+[TRACE] [2020-02-14 16:24:45] Employee [empNo=1003, empName=¡∂πŒ»Ò, title=Title [titleNo=3, titleName=null], salary=3000000, gender=1, dept=Department [deptNo=2, deptName=null, floor=0], hireDate=2005-07-01 00:00:00.0]
+[TRACE] [2020-02-14 16:24:45] 2005-07-01 - 00:00:00 2005≥‚ 07ø˘ 01¿œ 00Ω√ 00∫– 00√  
+[TRACE] [2020-02-14 16:24:45] 2005 ≥‚
+[TRACE] [2020-02-14 16:24:45] 7 ø˘
+[TRACE] [2020-02-14 16:24:45] 1 ¿œ
+[TRACE] [2020-02-14 16:24:45] 0Ω√ 0∫– 0√ 
+[TRACE] [2020-02-14 16:24:45] tearDown()
+[TRACE] [2020-02-14 16:24:45] setUp()
+[TRACE] [2020-02-14 16:24:45] test02SelectEmployeeByAll()
+[TRACE] [2020-02-14 16:24:45] tearDown()
+[TRACE] [2020-02-14 16:24:45] setUp()
+[TRACE] [2020-02-14 16:24:45] test03InsertEmployee()
+[TRACE] [2020-02-14 16:24:45] Employee [empNo=1006, empName=¿Ã¿Ø∏Æ, title=Title [titleNo=3, titleName=null], salary=3000000, gender=1, dept=Department [deptNo=2, deptName=null, floor=0], hireDate=Fri Feb 14 16:24:45 KST 2020]
+[TRACE] [2020-02-14 16:24:45] pstmt - insert into employee (emp_no, emp_name, title, salary, gender, dept, hire_date) values (1006,'¿Ã¿Ø∏Æ',3,3000000,1,2,'2020-02-14 16:24:45.376')
+[TRACE] [2020-02-14 16:24:45] tearDown()
+[TRACE] [2020-02-14 16:24:45] setUp()
+[TRACE] [2020-02-14 16:24:45] test04UpdateEmployee()
+[TRACE] [2020-02-14 16:24:45] Employee [empNo=1006, empName=¿Ã¿Ø¡§, title=Title [titleNo=3, titleName=null], salary=3000000, gender=1, dept=Department [deptNo=2, deptName=null, floor=0], hireDate=Fri Feb 14 16:24:45 KST 2020]
+[TRACE] [2020-02-14 16:24:45] pstmt - insert into employee (emp_no, emp_name, title, salary, gender, dept, hire_date) values (1006,'¿Ã¿Ø¡§',3,3000000,1,2,'2020-02-14 16:24:45.395')
+[TRACE] [2020-02-14 16:24:45] tearDown()
+[TRACE] [2020-02-14 16:24:45] setUp()
+[TRACE] [2020-02-14 16:24:45] test05DeleteEmployee()
+[TRACE] [2020-02-14 16:24:45] pstmt - delete from employee where emp_no=1006
+[TRACE] [2020-02-14 16:24:45] tearDown()
+[TRACE] [2020-02-14 16:24:45] tearDownAfterClass()
+[TRACE] [2020-02-14 16:24:45] setUpBeforeClass()
+[TRACE] [2020-02-14 16:24:45] setUp()
+[TRACE] [2020-02-14 16:24:45] test01SelectDepartmentByNo()
+[TRACE] [2020-02-14 16:24:45] pstmt - select dept_no, dept_name, floor from department where dept_no = 1
+[TRACE] [2020-02-14 16:24:45] Department [deptNo=1, deptName=øµæ˜, floor=8]
+[TRACE] [2020-02-14 16:24:45] tearDown()
+[TRACE] [2020-02-14 16:24:45] setUp()
+[TRACE] [2020-02-14 16:24:45] test02SelectDepartmentByAll()
+[TRACE] [2020-02-14 16:24:45] Department [deptNo=1, deptName=øµæ˜, floor=8]
+[TRACE] [2020-02-14 16:24:45] Department [deptNo=2, deptName=±‚»π, floor=10]
+[TRACE] [2020-02-14 16:24:45] Department [deptNo=3, deptName=∞≥πﬂ, floor=9]
+[TRACE] [2020-02-14 16:24:45] Department [deptNo=4, deptName=√—π´, floor=7]
+[TRACE] [2020-02-14 16:24:45] tearDown()
+[TRACE] [2020-02-14 16:24:45] setUp()
+[TRACE] [2020-02-14 16:24:45] test03InserDepartment()
+[TRACE] [2020-02-14 16:24:45] pstmt - insert into department values(5, '∏∂ƒ…∆√', 12)
+[TRACE] [2020-02-14 16:24:45] tearDown()
+[TRACE] [2020-02-14 16:24:45] setUp()
+[TRACE] [2020-02-14 16:24:45] test04UpdateDepartment()
+[TRACE] [2020-02-14 16:24:45] pstmt - update department set dept_name = '∏πŸ¿œ∞≥πﬂ', floor = 11 where dept_no = 5
+[TRACE] [2020-02-14 16:24:45] tearDown()
+[TRACE] [2020-02-14 16:24:45] setUp()
+[TRACE] [2020-02-14 16:24:45] test05DeleteDepartment()
+[TRACE] [2020-02-14 16:24:45] pstmt - delete from department where dept_no = 5
+[TRACE] [2020-02-14 16:24:45] tearDown()
+[TRACE] [2020-02-14 16:24:45] tearDownAfterClass()
+[TRACE] [2020-02-14 16:24:45] setUpBeforeClass()
+[TRACE] [2020-02-14 16:24:45] setUp()
+[TRACE] [2020-02-14 16:24:45] test01SelectTitleByNo()
+[TRACE] [2020-02-14 16:24:45] pstmt - select title_no, title_name from title where title_no=1
+[TRACE] [2020-02-14 16:24:45] Title [titleNo=1, titleName=»∏¿Â]
+[TRACE] [2020-02-14 16:24:45] tearDown()
+[TRACE] [2020-02-14 16:24:45] setUp()
+[TRACE] [2020-02-14 16:24:45] test02SelectTitleByAll()
+[TRACE] [2020-02-14 16:24:45] Title [titleNo=1, titleName=»∏¿Â]
+[TRACE] [2020-02-14 16:24:45] Title [titleNo=2, titleName=∫Œ¿Â]
+[TRACE] [2020-02-14 16:24:45] Title [titleNo=3, titleName=∞˙¿Â]
+[TRACE] [2020-02-14 16:24:45] Title [titleNo=4, titleName=¥Î∏Æ]
+[TRACE] [2020-02-14 16:24:45] Title [titleNo=5, titleName=ªÁø¯]
+[TRACE] [2020-02-14 16:24:45] tearDown()
+[TRACE] [2020-02-14 16:24:45] setUp()
+[TRACE] [2020-02-14 16:24:45] test03InsertTitle()
+[TRACE] [2020-02-14 16:24:45] pstmt - insert into title values (6,'¿Œ≈œ')
+[TRACE] [2020-02-14 16:24:45] tearDown()
+[TRACE] [2020-02-14 16:24:45] setUp()
+[TRACE] [2020-02-14 16:24:45] test04UpdateTitle()
+[TRACE] [2020-02-14 16:24:45] pstmt - update title set title_name = '»∏¿Â' where title_no = 1
+[TRACE] [2020-02-14 16:24:45] tearDown()
+[TRACE] [2020-02-14 16:24:45] setUp()
+[TRACE] [2020-02-14 16:24:45] test05DeleteTitle()
+[TRACE] [2020-02-14 16:24:45] pstmt - delete from title where title_no = 6
+[TRACE] [2020-02-14 16:24:45] tearDown()
+[TRACE] [2020-02-14 16:24:45] tearDownAfterClass()
+[TRACE] [2020-02-14 16:24:45] setUpBeforeClass()
+[TRACE] [2020-02-14 16:24:45] setUp()
+[TRACE] [2020-02-14 16:24:45] test()
+[TRACE] [2020-02-14 16:24:45] HikariProxyConnection@1499476661 wrapping com.mysql.jdbc.JDBC4Connection@2e0369f6
+[TRACE] [2020-02-14 16:24:45] tearDown()
+[TRACE] [2020-02-14 16:24:45] tearDownAfterClass()
+[TRACE] [2020-02-14 16:24:53] setUpBeforeClass()
+[TRACE] [2020-02-14 16:24:53] setUp()
+[TRACE] [2020-02-14 16:24:53] test01SelectEmployeeByNo()
+[TRACE] [2020-02-14 16:24:53] pstmt - select emp_no, emp_name, title, salary, gender, dept, hire_date from employee where emp_no = 1003
+[TRACE] [2020-02-14 16:24:53] Employee [empNo=1003, empName=¡∂πŒ»Ò, title=Title [titleNo=3, titleName=null], salary=3000000, gender=1, dept=Department [deptNo=2, deptName=null, floor=0], hireDate=2005-07-01 00:00:00.0]
+[TRACE] [2020-02-14 16:24:53] 2005-07-01 - 00:00:00 2005≥‚ 07ø˘ 01¿œ 00Ω√ 00∫– 00√  
+[TRACE] [2020-02-14 16:24:53] 2005 ≥‚
+[TRACE] [2020-02-14 16:24:53] 7 ø˘
+[TRACE] [2020-02-14 16:24:53] 1 ¿œ
+[TRACE] [2020-02-14 16:24:53] 0Ω√ 0∫– 0√ 
+[TRACE] [2020-02-14 16:24:53] tearDown()
+[TRACE] [2020-02-14 16:24:53] setUp()
+[TRACE] [2020-02-14 16:24:53] test02SelectEmployeeByAll()
+[TRACE] [2020-02-14 16:24:53] tearDown()
+[TRACE] [2020-02-14 16:24:53] setUp()
+[TRACE] [2020-02-14 16:24:53] test03InsertEmployee()
+[TRACE] [2020-02-14 16:24:53] Employee [empNo=1006, empName=¿Ã¿Ø∏Æ, title=Title [titleNo=3, titleName=null], salary=3000000, gender=1, dept=Department [deptNo=2, deptName=null, floor=0], hireDate=Fri Feb 14 16:24:53 KST 2020]
+[TRACE] [2020-02-14 16:24:53] pstmt - insert into employee (emp_no, emp_name, title, salary, gender, dept, hire_date) values (1006,'¿Ã¿Ø∏Æ',3,3000000,1,2,'2020-02-14 16:24:53.369')
+[TRACE] [2020-02-14 16:24:53] tearDown()
+[TRACE] [2020-02-14 16:24:53] setUp()
+[TRACE] [2020-02-14 16:24:53] test04UpdateEmployee()
+[TRACE] [2020-02-14 16:24:53] Employee [empNo=1006, empName=¿Ã¿Ø¡§, title=Title [titleNo=3, titleName=null], salary=3000000, gender=1, dept=Department [deptNo=2, deptName=null, floor=0], hireDate=Fri Feb 14 16:24:53 KST 2020]
+[TRACE] [2020-02-14 16:24:53] pstmt - insert into employee (emp_no, emp_name, title, salary, gender, dept, hire_date) values (1006,'¿Ã¿Ø¡§',3,3000000,1,2,'2020-02-14 16:24:53.377')
+[TRACE] [2020-02-14 16:24:53] tearDown()
+[TRACE] [2020-02-14 16:24:53] setUp()
+[TRACE] [2020-02-14 16:24:53] test05DeleteEmployee()
+[TRACE] [2020-02-14 16:24:53] pstmt - delete from employee where emp_no=1006
+[TRACE] [2020-02-14 16:24:53] tearDown()
+[TRACE] [2020-02-14 16:24:53] tearDownAfterClass()
+[TRACE] [2020-02-14 16:24:53] setUpBeforeClass()
+[TRACE] [2020-02-14 16:24:53] setUp()
+[TRACE] [2020-02-14 16:24:53] test01SelectDepartmentByNo()
+[TRACE] [2020-02-14 16:24:53] pstmt - select dept_no, dept_name, floor from department where dept_no = 1
+[TRACE] [2020-02-14 16:24:53] Department [deptNo=1, deptName=øµæ˜, floor=8]
+[TRACE] [2020-02-14 16:24:53] tearDown()
+[TRACE] [2020-02-14 16:24:53] setUp()
+[TRACE] [2020-02-14 16:24:53] test02SelectDepartmentByAll()
+[TRACE] [2020-02-14 16:24:53] Department [deptNo=1, deptName=øµæ˜, floor=8]
+[TRACE] [2020-02-14 16:24:53] Department [deptNo=2, deptName=±‚»π, floor=10]
+[TRACE] [2020-02-14 16:24:53] Department [deptNo=3, deptName=∞≥πﬂ, floor=9]
+[TRACE] [2020-02-14 16:24:53] Department [deptNo=4, deptName=√—π´, floor=7]
+[TRACE] [2020-02-14 16:24:53] tearDown()
+[TRACE] [2020-02-14 16:24:53] setUp()
+[TRACE] [2020-02-14 16:24:53] test03InserDepartment()
+[TRACE] [2020-02-14 16:24:53] pstmt - insert into department values(5, '∏∂ƒ…∆√', 12)
+[TRACE] [2020-02-14 16:24:53] tearDown()
+[TRACE] [2020-02-14 16:24:53] setUp()
+[TRACE] [2020-02-14 16:24:53] test04UpdateDepartment()
+[TRACE] [2020-02-14 16:24:53] pstmt - update department set dept_name = '∏πŸ¿œ∞≥πﬂ', floor = 11 where dept_no = 5
+[TRACE] [2020-02-14 16:24:53] tearDown()
+[TRACE] [2020-02-14 16:24:53] setUp()
+[TRACE] [2020-02-14 16:24:53] test05DeleteDepartment()
+[TRACE] [2020-02-14 16:24:53] pstmt - delete from department where dept_no = 5
+[TRACE] [2020-02-14 16:24:53] tearDown()
+[TRACE] [2020-02-14 16:24:53] tearDownAfterClass()
+[TRACE] [2020-02-14 16:24:53] setUpBeforeClass()
+[TRACE] [2020-02-14 16:24:53] setUp()
+[TRACE] [2020-02-14 16:24:53] test01SelectTitleByNo()
+[TRACE] [2020-02-14 16:24:53] pstmt - select title_no, title_name from title where title_no=1
+[TRACE] [2020-02-14 16:24:53] Title [titleNo=1, titleName=»∏¿Â]
+[TRACE] [2020-02-14 16:24:53] tearDown()
+[TRACE] [2020-02-14 16:24:53] setUp()
+[TRACE] [2020-02-14 16:24:53] test02SelectTitleByAll()
+[TRACE] [2020-02-14 16:24:53] Title [titleNo=1, titleName=»∏¿Â]
+[TRACE] [2020-02-14 16:24:53] Title [titleNo=2, titleName=∫Œ¿Â]
+[TRACE] [2020-02-14 16:24:53] Title [titleNo=3, titleName=∞˙¿Â]
+[TRACE] [2020-02-14 16:24:53] Title [titleNo=4, titleName=¥Î∏Æ]
+[TRACE] [2020-02-14 16:24:53] Title [titleNo=5, titleName=ªÁø¯]
+[TRACE] [2020-02-14 16:24:53] tearDown()
+[TRACE] [2020-02-14 16:24:53] setUp()
+[TRACE] [2020-02-14 16:24:53] test03InsertTitle()
+[TRACE] [2020-02-14 16:24:53] pstmt - insert into title values (6,'¿Œ≈œ')
+[TRACE] [2020-02-14 16:24:53] tearDown()
+[TRACE] [2020-02-14 16:24:53] setUp()
+[TRACE] [2020-02-14 16:24:53] test04UpdateTitle()
+[TRACE] [2020-02-14 16:24:53] pstmt - update title set title_name = '»∏¿Â' where title_no = 1
+[TRACE] [2020-02-14 16:24:53] tearDown()
+[TRACE] [2020-02-14 16:24:53] setUp()
+[TRACE] [2020-02-14 16:24:53] test05DeleteTitle()
+[TRACE] [2020-02-14 16:24:53] pstmt - delete from title where title_no = 6
+[TRACE] [2020-02-14 16:24:53] tearDown()
+[TRACE] [2020-02-14 16:24:53] tearDownAfterClass()
+[TRACE] [2020-02-14 16:24:53] setUpBeforeClass()
+[TRACE] [2020-02-14 16:24:53] setUp()
+[TRACE] [2020-02-14 16:24:53] test()
+[TRACE] [2020-02-14 16:24:53] HikariProxyConnection@1499476661 wrapping com.mysql.jdbc.JDBC4Connection@2e0369f6
+[TRACE] [2020-02-14 16:24:53] tearDown()
+[TRACE] [2020-02-14 16:24:53] tearDownAfterClass()
+[TRACE] [2020-02-14 16:25:47] setUpBeforeClass()
+[TRACE] [2020-02-14 16:25:47] setUp()
+[TRACE] [2020-02-14 16:25:47] test01SelectEmployeeByNo()
+[TRACE] [2020-02-14 16:25:47] pstmt - select emp_no, emp_name, title, salary, gender, dept, hire_date from employee where emp_no = 1003
+[TRACE] [2020-02-14 16:25:47] Employee [empNo=1003, empName=¡∂πŒ»Ò, title=Title [titleNo=3, titleName=null], salary=3000000, gender=1, dept=Department [deptNo=2, deptName=null, floor=0], hireDate=2005-07-01 00:00:00.0]
+[TRACE] [2020-02-14 16:25:47] 2005-07-01 - 00:00:00 2005≥‚ 07ø˘ 01¿œ 00Ω√ 00∫– 00√  
+[TRACE] [2020-02-14 16:25:47] 2005 ≥‚
+[TRACE] [2020-02-14 16:25:47] 7 ø˘
+[TRACE] [2020-02-14 16:25:47] 1 ¿œ
+[TRACE] [2020-02-14 16:25:47] 0Ω√ 0∫– 0√ 
+[TRACE] [2020-02-14 16:25:47] tearDown()
+[TRACE] [2020-02-14 16:25:47] setUp()
+[TRACE] [2020-02-14 16:25:47] test02SelectEmployeeByAll()
+[TRACE] [2020-02-14 16:25:47] tearDown()
+[TRACE] [2020-02-14 16:25:47] setUp()
+[TRACE] [2020-02-14 16:25:47] test03InsertEmployee()
+[TRACE] [2020-02-14 16:25:47] Employee [empNo=1006, empName=¿Ã¿Ø∏Æ, title=Title [titleNo=3, titleName=null], salary=3000000, gender=1, dept=Department [deptNo=2, deptName=null, floor=0], hireDate=Fri Feb 14 16:25:47 KST 2020]
+[TRACE] [2020-02-14 16:25:47] pstmt - insert into employee (emp_no, emp_name, title, salary, gender, dept, hire_date) values (1006,'¿Ã¿Ø∏Æ',3,3000000,1,2,'2020-02-14 16:25:47.334')
+[TRACE] [2020-02-14 16:25:47] tearDown()
+[TRACE] [2020-02-14 16:25:47] setUp()
+[TRACE] [2020-02-14 16:25:47] test04UpdateEmployee()
+[TRACE] [2020-02-14 16:25:47] Employee [empNo=1006, empName=¿Ã¿Ø¡§, title=Title [titleNo=3, titleName=null], salary=3000000, gender=1, dept=Department [deptNo=2, deptName=null, floor=0], hireDate=Fri Feb 14 16:25:47 KST 2020]
+[TRACE] [2020-02-14 16:25:47] pstmt - update employee set emp_name='¿Ã¿Ø¡§', title=3, salary=3000000, gender=1, dept=2, hire_date='2020-02-14 16:25:47.343' where emp_no=1006
+[TRACE] [2020-02-14 16:25:47] tearDown()
+[TRACE] [2020-02-14 16:25:47] setUp()
+[TRACE] [2020-02-14 16:25:47] test05DeleteEmployee()
+[TRACE] [2020-02-14 16:25:47] pstmt - delete from employee where emp_no=1006
+[TRACE] [2020-02-14 16:25:47] tearDown()
+[TRACE] [2020-02-14 16:25:47] tearDownAfterClass()
+[TRACE] [2020-02-14 16:25:47] setUpBeforeClass()
+[TRACE] [2020-02-14 16:25:47] setUp()
+[TRACE] [2020-02-14 16:25:47] test01SelectDepartmentByNo()
+[TRACE] [2020-02-14 16:25:47] pstmt - select dept_no, dept_name, floor from department where dept_no = 1
+[TRACE] [2020-02-14 16:25:47] Department [deptNo=1, deptName=øµæ˜, floor=8]
+[TRACE] [2020-02-14 16:25:47] tearDown()
+[TRACE] [2020-02-14 16:25:47] setUp()
+[TRACE] [2020-02-14 16:25:47] test02SelectDepartmentByAll()
+[TRACE] [2020-02-14 16:25:47] Department [deptNo=1, deptName=øµæ˜, floor=8]
+[TRACE] [2020-02-14 16:25:47] Department [deptNo=2, deptName=±‚»π, floor=10]
+[TRACE] [2020-02-14 16:25:47] Department [deptNo=3, deptName=∞≥πﬂ, floor=9]
+[TRACE] [2020-02-14 16:25:47] Department [deptNo=4, deptName=√—π´, floor=7]
+[TRACE] [2020-02-14 16:25:47] tearDown()
+[TRACE] [2020-02-14 16:25:47] setUp()
+[TRACE] [2020-02-14 16:25:47] test03InserDepartment()
+[TRACE] [2020-02-14 16:25:47] pstmt - insert into department values(5, '∏∂ƒ…∆√', 12)
+[TRACE] [2020-02-14 16:25:47] tearDown()
+[TRACE] [2020-02-14 16:25:47] setUp()
+[TRACE] [2020-02-14 16:25:47] test04UpdateDepartment()
+[TRACE] [2020-02-14 16:25:47] pstmt - update department set dept_name = '∏πŸ¿œ∞≥πﬂ', floor = 11 where dept_no = 5
+[TRACE] [2020-02-14 16:25:47] tearDown()
+[TRACE] [2020-02-14 16:25:47] setUp()
+[TRACE] [2020-02-14 16:25:47] test05DeleteDepartment()
+[TRACE] [2020-02-14 16:25:47] pstmt - delete from department where dept_no = 5
+[TRACE] [2020-02-14 16:25:47] tearDown()
+[TRACE] [2020-02-14 16:25:47] tearDownAfterClass()
+[TRACE] [2020-02-14 16:25:47] setUpBeforeClass()
+[TRACE] [2020-02-14 16:25:47] setUp()
+[TRACE] [2020-02-14 16:25:47] test01SelectTitleByNo()
+[TRACE] [2020-02-14 16:25:47] pstmt - select title_no, title_name from title where title_no=1
+[TRACE] [2020-02-14 16:25:47] Title [titleNo=1, titleName=»∏¿Â]
+[TRACE] [2020-02-14 16:25:47] tearDown()
+[TRACE] [2020-02-14 16:25:47] setUp()
+[TRACE] [2020-02-14 16:25:47] test02SelectTitleByAll()
+[TRACE] [2020-02-14 16:25:47] Title [titleNo=1, titleName=»∏¿Â]
+[TRACE] [2020-02-14 16:25:47] Title [titleNo=2, titleName=∫Œ¿Â]
+[TRACE] [2020-02-14 16:25:47] Title [titleNo=3, titleName=∞˙¿Â]
+[TRACE] [2020-02-14 16:25:47] Title [titleNo=4, titleName=¥Î∏Æ]
+[TRACE] [2020-02-14 16:25:47] Title [titleNo=5, titleName=ªÁø¯]
+[TRACE] [2020-02-14 16:25:47] tearDown()
+[TRACE] [2020-02-14 16:25:47] setUp()
+[TRACE] [2020-02-14 16:25:47] test03InsertTitle()
+[TRACE] [2020-02-14 16:25:47] pstmt - insert into title values (6,'¿Œ≈œ')
+[TRACE] [2020-02-14 16:25:47] tearDown()
+[TRACE] [2020-02-14 16:25:47] setUp()
+[TRACE] [2020-02-14 16:25:47] test04UpdateTitle()
+[TRACE] [2020-02-14 16:25:47] pstmt - update title set title_name = '»∏¿Â' where title_no = 1
+[TRACE] [2020-02-14 16:25:47] tearDown()
+[TRACE] [2020-02-14 16:25:47] setUp()
+[TRACE] [2020-02-14 16:25:47] test05DeleteTitle()
+[TRACE] [2020-02-14 16:25:47] pstmt - delete from title where title_no = 6
+[TRACE] [2020-02-14 16:25:47] tearDown()
+[TRACE] [2020-02-14 16:25:47] tearDownAfterClass()
+[TRACE] [2020-02-14 16:25:47] setUpBeforeClass()
+[TRACE] [2020-02-14 16:25:47] setUp()
+[TRACE] [2020-02-14 16:25:47] test()
+[TRACE] [2020-02-14 16:25:47] HikariProxyConnection@972344870 wrapping com.mysql.jdbc.JDBC4Connection@64a0b1c7
+[TRACE] [2020-02-14 16:25:47] tearDown()
+[TRACE] [2020-02-14 16:25:47] tearDownAfterClass()
+[TRACE] [2020-02-14 21:12:24] pstmt - insert into department values(5, 'ÎßàÏºÄÌåÖ', 12)
+[TRACE] [2020-02-14 21:14:09] pstmt - insert into department values(6, 'Ïù∏ÏÇ¨2', 11)
+[TRACE] [2020-02-14 21:14:53] pstmt - delete from department where dept_no = 6
+[TRACE] [2020-02-14 21:14:55] pstmt - delete from department where dept_no = 5
+[TRACE] [2020-02-14 21:14:59] pstmt - delete from department where dept_no = 2
+[TRACE] [2020-02-14 21:25:28] pstmt - insert into department values(5, 'ÎßàÏºÄÌåÖ', 13)
+[TRACE] [2020-02-14 21:27:53] pstmt - delete from department where dept_no = 5
+[TRACE] [2020-02-14 21:30:22] pstmt - insert into department values(5, 'ÎßàÏºÄÌåÖ', 13)
+[TRACE] [2020-02-14 21:30:32] pstmt - insert into department values(6, 'Í≤ΩÏòÅ', 14)
+[TRACE] [2020-02-14 21:37:06] pstmt - update department set dept_name = 'Ï¥ùÎ¨¥', floor = 8 where dept_no = 7
+[TRACE] [2020-02-14 21:51:55] pstmt - delete from department where dept_no = 6
+[TRACE] [2020-02-14 21:52:01] pstmt - delete from department where dept_no = 5
+[TRACE] [2020-02-14 21:54:49] pstmt - update department set dept_name = 'ÏòÅÏóÖ', floor = 13 where dept_no = 5
+[TRACE] [2020-02-14 21:56:41] pstmt - update department set dept_name = 'ÏòÅÏóÖ', floor = 10 where dept_no = 5
+[TRACE] [2020-02-15 13:22:48] pstmt - insert into department values(5, 'ÎßàÏºÄÌåÖ', 13)
+[TRACE] [2020-02-15 13:23:47] pstmt - update department set dept_name = 'Í∞úÎ∞ú1', floor = 9 where dept_no = 6
+[TRACE] [2020-02-15 13:33:06] pstmt - delete from department where dept_no = 5
+[TRACE] [2020-02-15 13:33:22] pstmt - insert into department values(6, 'ÎßàÏºÄÌåÖ', 13)
+[TRACE] [2020-02-15 13:33:57] pstmt - insert into department values(6, 'asdf', 12)
+[TRACE] [2020-02-15 13:34:30] pstmt - delete from department where dept_no = 6
+[TRACE] [2020-02-15 13:34:46] pstmt - insert into department values(5, 'ghjg', 12)
+[TRACE] [2020-02-15 13:35:39] pstmt - delete from department where dept_no = 5
+[TRACE] [2020-02-15 13:55:14] pstmt - select dept_no, dept_name, floor from department where dept_no = 3
+[TRACE] [2020-02-15 13:55:40] pstmt - select dept_no, dept_name, floor from department where dept_no = 4
+[TRACE] [2020-02-15 14:01:02] pstmt - select dept_no, dept_name, floor from department where dept_no = 4
+[TRACE] [2020-02-15 14:01:11] pstmt - insert into department values(5, 'ÎßàÏºÄÌåÖ', 13)
+[TRACE] [2020-02-15 14:01:21] pstmt - insert into department values(6, 'Ï¥ùÎ¨¥2', 15)
+[TRACE] [2020-02-15 14:05:44] pstmt - select dept_no, dept_name, floor from department where dept_no = 6
+[TRACE] [2020-02-15 14:06:02] pstmt - select dept_no, dept_name, floor from department where dept_no = 6
+[TRACE] [2020-02-15 14:06:09] pstmt - select dept_no, dept_name, floor from department where dept_no = 6
+[TRACE] [2020-02-15 14:06:18] pstmt - select dept_no, dept_name, floor from department where dept_no = 6
+[TRACE] [2020-02-15 14:06:35] pstmt - select dept_no, dept_name, floor from department where dept_no = 6
+[TRACE] [2020-02-15 14:06:46] pstmt - select dept_no, dept_name, floor from department where dept_no = 6
+[TRACE] [2020-02-15 14:06:58] pstmt - insert into department values(7, 'ÏòÅÏóÖ2', 15)
+[TRACE] [2020-02-15 14:07:12] pstmt - select dept_no, dept_name, floor from department where dept_no = 7
+[TRACE] [2020-02-15 14:07:19] pstmt - select dept_no, dept_name, floor from department where dept_no = 7
+[TRACE] [2020-02-15 14:07:21] pstmt - select dept_no, dept_name, floor from department where dept_no = 7
+[TRACE] [2020-02-15 14:07:33] pstmt - update department set dept_name = 'ÏòÅÏóÖ2', floor = 18 where dept_no = 7
+[TRACE] [2020-02-15 14:08:13] pstmt - select dept_no, dept_name, floor from department where dept_no = 7
+[TRACE] [2020-02-15 14:08:21] pstmt - update department set dept_name = 'Ï¥ùÎ¨¥2', floor = 17 where dept_no = 6
+[TRACE] [2020-02-15 14:08:21] pstmt - select dept_no, dept_name, floor from department where dept_no = 7
+[TRACE] [2020-02-15 14:09:01] pstmt - select dept_no, dept_name, floor from department where dept_no = 7
+[TRACE] [2020-02-15 14:09:07] pstmt - update department set dept_name = 'ÏòÅÏóÖ2', floor = 19 where dept_no = 7
+[TRACE] [2020-02-15 14:09:07] pstmt - select dept_no, dept_name, floor from department where dept_no = 7
+[TRACE] [2020-02-15 14:09:16] pstmt - update department set dept_name = 'Í∞úÎ∞ú', floor = 10 where dept_no = 3
+[TRACE] [2020-02-15 14:09:16] pstmt - select dept_no, dept_name, floor from department where dept_no = 7
+[TRACE] [2020-02-15 14:09:21] pstmt - delete from department where dept_no = 6
+[TRACE] [2020-02-15 14:09:35] pstmt - select dept_no, dept_name, floor from department where dept_no = 6
+[TRACE] [2020-02-15 14:27:05] pstmt - select dept_no, dept_name, floor from department where dept_no = 6
+[TRACE] [2020-02-15 14:27:30] pstmt - select dept_no, dept_name, floor from department where dept_no = 6
+[TRACE] [2020-02-15 14:45:29] setUpBeforeClass()
+[TRACE] [2020-02-15 14:45:29] setUp()
+[TRACE] [2020-02-15 14:45:29] test01SelectDepartmentByNo()
+[TRACE] [2020-02-15 14:45:30] pstmt - select dept_no, dept_name, floor from department where dept_no = 1
+[TRACE] [2020-02-15 14:45:30] Department [deptNo=1, deptName=øµæ˜, floor=8]
+[TRACE] [2020-02-15 14:45:30] tearDown()
+[TRACE] [2020-02-15 14:45:30] setUp()
+[TRACE] [2020-02-15 14:45:30] test02SelectDepartmentByAll()
+[TRACE] [2020-02-15 14:45:30] Department [deptNo=1, deptName=øµæ˜, floor=8]
+[TRACE] [2020-02-15 14:45:30] Department [deptNo=2, deptName=¿ŒªÁ, floor=12]
+[TRACE] [2020-02-15 14:45:30] Department [deptNo=3, deptName=∞≥πﬂ, floor=10]
+[TRACE] [2020-02-15 14:45:30] Department [deptNo=4, deptName=√—π´, floor=7]
+[TRACE] [2020-02-15 14:45:30] Department [deptNo=5, deptName=∏∂ƒ…∆√, floor=13]
+[TRACE] [2020-02-15 14:45:30] Department [deptNo=7, deptName=øµæ˜2, floor=19]
+[TRACE] [2020-02-15 14:45:30] tearDown()
+[TRACE] [2020-02-15 14:45:30] setUp()
+[TRACE] [2020-02-15 14:45:30] test03InserDepartment()
+[TRACE] [2020-02-15 14:45:30] pstmt - insert into department values(5, '∏∂ƒ…∆√', 12)
+[TRACE] [2020-02-15 14:45:30] tearDown()
+[TRACE] [2020-02-15 14:45:30] setUp()
+[TRACE] [2020-02-15 14:45:30] test04UpdateDepartment()
+[TRACE] [2020-02-15 14:45:30] pstmt - update department set dept_name = '∏πŸ¿œ∞≥πﬂ', floor = 11 where dept_no = 5
+[TRACE] [2020-02-15 14:45:30] tearDown()
+[TRACE] [2020-02-15 14:45:30] setUp()
+[TRACE] [2020-02-15 14:45:30] test05DeleteDepartment()
+[TRACE] [2020-02-15 14:45:30] pstmt - delete from department where dept_no = 5
+[TRACE] [2020-02-15 14:45:30] tearDown()
+[TRACE] [2020-02-15 14:45:30] setUp()
+[TRACE] [2020-02-15 14:45:30] test06SelectDepartmentLastData()
+[TRACE] [2020-02-15 14:45:30] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-15 14:45:30] tearDown()
+[TRACE] [2020-02-15 14:45:30] tearDownAfterClass()
+[TRACE] [2020-02-15 14:45:30] setUpBeforeClass()
+[TRACE] [2020-02-15 14:45:30] setUp()
+[TRACE] [2020-02-15 14:45:30] test01SelectEmployeeByNo()
+[TRACE] [2020-02-15 14:45:30] pstmt - select emp_no, emp_name, title, salary, gender, dept, hire_date from employee where emp_no = 1003
+[TRACE] [2020-02-15 14:45:30] tearDown()
+[TRACE] [2020-02-15 14:45:30] setUp()
+[TRACE] [2020-02-15 14:45:30] test02SelectEmployeeByAll()
+[TRACE] [2020-02-15 14:45:30] tearDown()
+[TRACE] [2020-02-15 14:45:30] setUp()
+[TRACE] [2020-02-15 14:45:30] test03InsertEmployee()
+[TRACE] [2020-02-15 14:45:30] Employee [empNo=1006, empName=¿Ã¿Ø∏Æ, title=Title [titleNo=3, titleName=null], salary=3000000, gender=1, dept=Department [deptNo=2, deptName=null, floor=0], hireDate=Sat Feb 15 14:45:30 KST 2020]
+[TRACE] [2020-02-15 14:45:30] pstmt - insert into employee (emp_no, emp_name, title, salary, gender, dept, hire_date) values (1006,'¿Ã¿Ø∏Æ',3,3000000,1,2,'2020-02-15 14:45:30.171')
+[TRACE] [2020-02-15 14:45:30] tearDown()
+[TRACE] [2020-02-15 14:45:30] setUp()
+[TRACE] [2020-02-15 14:45:30] test04UpdateEmployee()
+[TRACE] [2020-02-15 14:45:30] Employee [empNo=1006, empName=¿Ã¿Ø¡§, title=Title [titleNo=3, titleName=null], salary=3000000, gender=1, dept=Department [deptNo=2, deptName=null, floor=0], hireDate=Sat Feb 15 14:45:30 KST 2020]
+[TRACE] [2020-02-15 14:45:30] pstmt - update employee set emp_name='¿Ã¿Ø¡§', title=3, salary=3000000, gender=1, dept=2, hire_date='2020-02-15 14:45:30.184' where emp_no=1006
+[TRACE] [2020-02-15 14:45:30] tearDown()
+[TRACE] [2020-02-15 14:45:30] setUp()
+[TRACE] [2020-02-15 14:45:30] test05DeleteEmployee()
+[TRACE] [2020-02-15 14:45:30] pstmt - delete from employee where emp_no=1006
+[TRACE] [2020-02-15 14:45:30] tearDown()
+[TRACE] [2020-02-15 14:45:30] tearDownAfterClass()
+[TRACE] [2020-02-15 14:45:30] setUpBeforeClass()
+[TRACE] [2020-02-15 14:45:30] setUp()
+[TRACE] [2020-02-15 14:45:30] test01SelectTitleByNo()
+[TRACE] [2020-02-15 14:45:30] pstmt - select title_no, title_name from title where title_no=1
+[TRACE] [2020-02-15 14:45:30] Title [titleNo=1, titleName=»∏¿Â]
+[TRACE] [2020-02-15 14:45:30] tearDown()
+[TRACE] [2020-02-15 14:45:30] setUp()
+[TRACE] [2020-02-15 14:45:30] test02SelectTitleByAll()
+[TRACE] [2020-02-15 14:45:30] Title [titleNo=1, titleName=»∏¿Â]
+[TRACE] [2020-02-15 14:45:30] Title [titleNo=2, titleName=∫Œ¿Â]
+[TRACE] [2020-02-15 14:45:30] Title [titleNo=3, titleName=∞˙¿Â]
+[TRACE] [2020-02-15 14:45:30] Title [titleNo=4, titleName=¥Î∏Æ]
+[TRACE] [2020-02-15 14:45:30] Title [titleNo=5, titleName=ªÁø¯]
+[TRACE] [2020-02-15 14:45:30] tearDown()
+[TRACE] [2020-02-15 14:45:30] setUp()
+[TRACE] [2020-02-15 14:45:30] test03InsertTitle()
+[TRACE] [2020-02-15 14:45:30] pstmt - insert into title values (6,'¿Œ≈œ')
+[TRACE] [2020-02-15 14:45:30] tearDown()
+[TRACE] [2020-02-15 14:45:30] setUp()
+[TRACE] [2020-02-15 14:45:30] test04UpdateTitle()
+[TRACE] [2020-02-15 14:45:30] pstmt - update title set title_name = '»∏¿Â' where title_no = 1
+[TRACE] [2020-02-15 14:45:30] tearDown()
+[TRACE] [2020-02-15 14:45:30] setUp()
+[TRACE] [2020-02-15 14:45:30] test05DeleteTitle()
+[TRACE] [2020-02-15 14:45:30] pstmt - delete from title where title_no = 6
+[TRACE] [2020-02-15 14:45:30] tearDown()
+[TRACE] [2020-02-15 14:45:30] tearDownAfterClass()
+[TRACE] [2020-02-15 14:45:30] setUpBeforeClass()
+[TRACE] [2020-02-15 14:45:30] setUp()
+[TRACE] [2020-02-15 14:45:30] test()
+[TRACE] [2020-02-15 14:45:30] HikariProxyConnection@1893102107 wrapping com.mysql.jdbc.JDBC4Connection@6a9b516d
+[TRACE] [2020-02-15 14:45:30] tearDown()
+[TRACE] [2020-02-15 14:45:30] tearDownAfterClass()
+[TRACE] [2020-02-15 14:48:24] setUpBeforeClass()
+[TRACE] [2020-02-15 14:48:24] setUp()
+[TRACE] [2020-02-15 14:48:24] test01SelectDepartmentByNo()
+[TRACE] [2020-02-15 14:48:25] pstmt - select dept_no, dept_name, floor from department where dept_no = 1
+[TRACE] [2020-02-15 14:48:25] Department [deptNo=1, deptName=øµæ˜, floor=8]
+[TRACE] [2020-02-15 14:48:25] tearDown()
+[TRACE] [2020-02-15 14:48:25] setUp()
+[TRACE] [2020-02-15 14:48:25] test02SelectDepartmentByAll()
+[TRACE] [2020-02-15 14:48:25] Department [deptNo=1, deptName=øµæ˜, floor=8]
+[TRACE] [2020-02-15 14:48:25] Department [deptNo=2, deptName=¿ŒªÁ, floor=12]
+[TRACE] [2020-02-15 14:48:25] Department [deptNo=3, deptName=∞≥πﬂ, floor=10]
+[TRACE] [2020-02-15 14:48:25] Department [deptNo=4, deptName=√—π´, floor=7]
+[TRACE] [2020-02-15 14:48:25] Department [deptNo=7, deptName=øµæ˜2, floor=19]
+[TRACE] [2020-02-15 14:48:25] tearDown()
+[TRACE] [2020-02-15 14:48:25] setUp()
+[TRACE] [2020-02-15 14:48:25] test03InserDepartment()
+[TRACE] [2020-02-15 14:48:25] pstmt - insert into department values(5, '∏∂ƒ…∆√', 12)
+[TRACE] [2020-02-15 14:48:25] tearDown()
+[TRACE] [2020-02-15 14:48:25] setUp()
+[TRACE] [2020-02-15 14:48:25] test04UpdateDepartment()
+[TRACE] [2020-02-15 14:48:25] pstmt - update department set dept_name = '∏πŸ¿œ∞≥πﬂ', floor = 11 where dept_no = 5
+[TRACE] [2020-02-15 14:48:25] tearDown()
+[TRACE] [2020-02-15 14:48:25] setUp()
+[TRACE] [2020-02-15 14:48:25] test05DeleteDepartment()
+[TRACE] [2020-02-15 14:48:25] pstmt - delete from department where dept_no = 5
+[TRACE] [2020-02-15 14:48:25] tearDown()
+[TRACE] [2020-02-15 14:48:25] setUp()
+[TRACE] [2020-02-15 14:48:25] test06SelectDepartmentLastData()
+[TRACE] [2020-02-15 14:48:25] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-15 14:48:25] tearDown()
+[TRACE] [2020-02-15 14:48:25] tearDownAfterClass()
+[TRACE] [2020-02-15 14:48:25] setUpBeforeClass()
+[TRACE] [2020-02-15 14:48:25] setUp()
+[TRACE] [2020-02-15 14:48:25] test01SelectEmployeeByNo()
+[TRACE] [2020-02-15 14:48:25] pstmt - select emp_no, emp_name, title, salary, gender, dept, hire_date from employee where emp_no = 1003
+[TRACE] [2020-02-15 14:48:25] tearDown()
+[TRACE] [2020-02-15 14:48:25] setUp()
+[TRACE] [2020-02-15 14:48:25] test02SelectEmployeeByAll()
+[TRACE] [2020-02-15 14:48:25] tearDown()
+[TRACE] [2020-02-15 14:48:25] setUp()
+[TRACE] [2020-02-15 14:48:25] test03InsertEmployee()
+[TRACE] [2020-02-15 14:48:25] Employee [empNo=1006, empName=¿Ã¿Ø∏Æ, title=Title [titleNo=3, titleName=null], salary=3000000, gender=1, dept=Department [deptNo=2, deptName=null, floor=0], hireDate=Sat Feb 15 14:48:25 KST 2020]
+[TRACE] [2020-02-15 14:48:25] pstmt - insert into employee (emp_no, emp_name, title, salary, gender, dept, hire_date) values (1006,'¿Ã¿Ø∏Æ',3,3000000,1,2,'2020-02-15 14:48:25.238')
+[TRACE] [2020-02-15 14:48:25] tearDown()
+[TRACE] [2020-02-15 14:48:25] setUp()
+[TRACE] [2020-02-15 14:48:25] test04UpdateEmployee()
+[TRACE] [2020-02-15 14:48:25] Employee [empNo=1006, empName=¿Ã¿Ø¡§, title=Title [titleNo=3, titleName=null], salary=3000000, gender=1, dept=Department [deptNo=2, deptName=null, floor=0], hireDate=Sat Feb 15 14:48:25 KST 2020]
+[TRACE] [2020-02-15 14:48:25] pstmt - update employee set emp_name='¿Ã¿Ø¡§', title=3, salary=3000000, gender=1, dept=2, hire_date='2020-02-15 14:48:25.248' where emp_no=1006
+[TRACE] [2020-02-15 14:48:25] tearDown()
+[TRACE] [2020-02-15 14:48:25] setUp()
+[TRACE] [2020-02-15 14:48:25] test05DeleteEmployee()
+[TRACE] [2020-02-15 14:48:25] pstmt - delete from employee where emp_no=1006
+[TRACE] [2020-02-15 14:48:25] tearDown()
+[TRACE] [2020-02-15 14:48:25] tearDownAfterClass()
+[TRACE] [2020-02-15 14:48:25] setUpBeforeClass()
+[TRACE] [2020-02-15 14:48:25] setUp()
+[TRACE] [2020-02-15 14:48:25] test01SelectTitleByNo()
+[TRACE] [2020-02-15 14:48:25] pstmt - select title_no, title_name from title where title_no=1
+[TRACE] [2020-02-15 14:48:25] Title [titleNo=1, titleName=»∏¿Â]
+[TRACE] [2020-02-15 14:48:25] tearDown()
+[TRACE] [2020-02-15 14:48:25] setUp()
+[TRACE] [2020-02-15 14:48:25] test02SelectTitleByAll()
+[TRACE] [2020-02-15 14:48:25] Title [titleNo=1, titleName=»∏¿Â]
+[TRACE] [2020-02-15 14:48:25] Title [titleNo=2, titleName=∫Œ¿Â]
+[TRACE] [2020-02-15 14:48:25] Title [titleNo=3, titleName=∞˙¿Â]
+[TRACE] [2020-02-15 14:48:25] Title [titleNo=4, titleName=¥Î∏Æ]
+[TRACE] [2020-02-15 14:48:25] Title [titleNo=5, titleName=ªÁø¯]
+[TRACE] [2020-02-15 14:48:25] tearDown()
+[TRACE] [2020-02-15 14:48:25] setUp()
+[TRACE] [2020-02-15 14:48:25] test03InsertTitle()
+[TRACE] [2020-02-15 14:48:25] pstmt - insert into title values (6,'¿Œ≈œ')
+[TRACE] [2020-02-15 14:48:25] tearDown()
+[TRACE] [2020-02-15 14:48:25] setUp()
+[TRACE] [2020-02-15 14:48:25] test04UpdateTitle()
+[TRACE] [2020-02-15 14:48:25] pstmt - update title set title_name = '»∏¿Â' where title_no = 1
+[TRACE] [2020-02-15 14:48:25] tearDown()
+[TRACE] [2020-02-15 14:48:25] setUp()
+[TRACE] [2020-02-15 14:48:25] test05DeleteTitle()
+[TRACE] [2020-02-15 14:48:25] pstmt - delete from title where title_no = 6
+[TRACE] [2020-02-15 14:48:25] tearDown()
+[TRACE] [2020-02-15 14:48:25] tearDownAfterClass()
+[TRACE] [2020-02-15 14:48:25] setUpBeforeClass()
+[TRACE] [2020-02-15 14:48:25] setUp()
+[TRACE] [2020-02-15 14:48:25] test()
+[TRACE] [2020-02-15 14:48:25] HikariProxyConnection@1160769425 wrapping com.mysql.jdbc.JDBC4Connection@70d6721b
+[TRACE] [2020-02-15 14:48:25] tearDown()
+[TRACE] [2020-02-15 14:48:25] tearDownAfterClass()
+[TRACE] [2020-02-15 14:50:59] setUpBeforeClass()
+[TRACE] [2020-02-15 14:50:59] setUp()
+[TRACE] [2020-02-15 14:50:59] test01SelectDepartmentByNo()
+[TRACE] [2020-02-15 14:50:59] pstmt - select dept_no, dept_name, floor from department where dept_no = 1
+[TRACE] [2020-02-15 14:50:59] Department [deptNo=1, deptName=øµæ˜, floor=8]
+[TRACE] [2020-02-15 14:50:59] tearDown()
+[TRACE] [2020-02-15 14:50:59] setUp()
+[TRACE] [2020-02-15 14:50:59] test02SelectDepartmentByAll()
+[TRACE] [2020-02-15 14:50:59] Department [deptNo=1, deptName=øµæ˜, floor=8]
+[TRACE] [2020-02-15 14:50:59] Department [deptNo=2, deptName=¿ŒªÁ, floor=12]
+[TRACE] [2020-02-15 14:50:59] Department [deptNo=3, deptName=∞≥πﬂ, floor=10]
+[TRACE] [2020-02-15 14:50:59] Department [deptNo=4, deptName=√—π´, floor=7]
+[TRACE] [2020-02-15 14:50:59] Department [deptNo=7, deptName=øµæ˜2, floor=19]
+[TRACE] [2020-02-15 14:50:59] tearDown()
+[TRACE] [2020-02-15 14:50:59] setUp()
+[TRACE] [2020-02-15 14:50:59] test03InserDepartment()
+[TRACE] [2020-02-15 14:50:59] pstmt - insert into department values(5, '∏∂ƒ…∆√', 12)
+[TRACE] [2020-02-15 14:50:59] tearDown()
+[TRACE] [2020-02-15 14:50:59] setUp()
+[TRACE] [2020-02-15 14:50:59] test04UpdateDepartment()
+[TRACE] [2020-02-15 14:50:59] pstmt - update department set dept_name = '∏πŸ¿œ∞≥πﬂ', floor = 11 where dept_no = 5
+[TRACE] [2020-02-15 14:50:59] tearDown()
+[TRACE] [2020-02-15 14:50:59] setUp()
+[TRACE] [2020-02-15 14:50:59] test05DeleteDepartment()
+[TRACE] [2020-02-15 14:50:59] pstmt - delete from department where dept_no = 5
+[TRACE] [2020-02-15 14:50:59] tearDown()
+[TRACE] [2020-02-15 14:50:59] setUp()
+[TRACE] [2020-02-15 14:50:59] test06SelectDepartmentLastData()
+[TRACE] [2020-02-15 14:50:59] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-15 14:50:59] Department [deptNo=7, deptName=null, floor=0]
+[TRACE] [2020-02-15 14:50:59] tearDown()
+[TRACE] [2020-02-15 14:50:59] tearDownAfterClass()
+[TRACE] [2020-02-15 14:50:59] setUpBeforeClass()
+[TRACE] [2020-02-15 14:50:59] setUp()
+[TRACE] [2020-02-15 14:50:59] test01SelectEmployeeByNo()
+[TRACE] [2020-02-15 14:50:59] pstmt - select emp_no, emp_name, title, salary, gender, dept, hire_date from employee where emp_no = 1003
+[TRACE] [2020-02-15 14:50:59] tearDown()
+[TRACE] [2020-02-15 14:50:59] setUp()
+[TRACE] [2020-02-15 14:50:59] test02SelectEmployeeByAll()
+[TRACE] [2020-02-15 14:50:59] tearDown()
+[TRACE] [2020-02-15 14:50:59] setUp()
+[TRACE] [2020-02-15 14:50:59] test03InsertEmployee()
+[TRACE] [2020-02-15 14:50:59] Employee [empNo=1006, empName=¿Ã¿Ø∏Æ, title=Title [titleNo=3, titleName=null], salary=3000000, gender=1, dept=Department [deptNo=2, deptName=null, floor=0], hireDate=Sat Feb 15 14:50:59 KST 2020]
+[TRACE] [2020-02-15 14:50:59] pstmt - insert into employee (emp_no, emp_name, title, salary, gender, dept, hire_date) values (1006,'¿Ã¿Ø∏Æ',3,3000000,1,2,'2020-02-15 14:50:59.447')
+[TRACE] [2020-02-15 14:50:59] tearDown()
+[TRACE] [2020-02-15 14:50:59] setUp()
+[TRACE] [2020-02-15 14:50:59] test04UpdateEmployee()
+[TRACE] [2020-02-15 14:50:59] Employee [empNo=1006, empName=¿Ã¿Ø¡§, title=Title [titleNo=3, titleName=null], salary=3000000, gender=1, dept=Department [deptNo=2, deptName=null, floor=0], hireDate=Sat Feb 15 14:50:59 KST 2020]
+[TRACE] [2020-02-15 14:50:59] pstmt - update employee set emp_name='¿Ã¿Ø¡§', title=3, salary=3000000, gender=1, dept=2, hire_date='2020-02-15 14:50:59.457' where emp_no=1006
+[TRACE] [2020-02-15 14:50:59] tearDown()
+[TRACE] [2020-02-15 14:50:59] setUp()
+[TRACE] [2020-02-15 14:50:59] test05DeleteEmployee()
+[TRACE] [2020-02-15 14:50:59] pstmt - delete from employee where emp_no=1006
+[TRACE] [2020-02-15 14:50:59] tearDown()
+[TRACE] [2020-02-15 14:50:59] tearDownAfterClass()
+[TRACE] [2020-02-15 14:50:59] setUpBeforeClass()
+[TRACE] [2020-02-15 14:50:59] setUp()
+[TRACE] [2020-02-15 14:50:59] test01SelectTitleByNo()
+[TRACE] [2020-02-15 14:50:59] pstmt - select title_no, title_name from title where title_no=1
+[TRACE] [2020-02-15 14:50:59] Title [titleNo=1, titleName=»∏¿Â]
+[TRACE] [2020-02-15 14:50:59] tearDown()
+[TRACE] [2020-02-15 14:50:59] setUp()
+[TRACE] [2020-02-15 14:50:59] test02SelectTitleByAll()
+[TRACE] [2020-02-15 14:50:59] Title [titleNo=1, titleName=»∏¿Â]
+[TRACE] [2020-02-15 14:50:59] Title [titleNo=2, titleName=∫Œ¿Â]
+[TRACE] [2020-02-15 14:50:59] Title [titleNo=3, titleName=∞˙¿Â]
+[TRACE] [2020-02-15 14:50:59] Title [titleNo=4, titleName=¥Î∏Æ]
+[TRACE] [2020-02-15 14:50:59] Title [titleNo=5, titleName=ªÁø¯]
+[TRACE] [2020-02-15 14:50:59] tearDown()
+[TRACE] [2020-02-15 14:50:59] setUp()
+[TRACE] [2020-02-15 14:50:59] test03InsertTitle()
+[TRACE] [2020-02-15 14:50:59] pstmt - insert into title values (6,'¿Œ≈œ')
+[TRACE] [2020-02-15 14:50:59] tearDown()
+[TRACE] [2020-02-15 14:50:59] setUp()
+[TRACE] [2020-02-15 14:50:59] test04UpdateTitle()
+[TRACE] [2020-02-15 14:50:59] pstmt - update title set title_name = '»∏¿Â' where title_no = 1
+[TRACE] [2020-02-15 14:50:59] tearDown()
+[TRACE] [2020-02-15 14:50:59] setUp()
+[TRACE] [2020-02-15 14:50:59] test05DeleteTitle()
+[TRACE] [2020-02-15 14:50:59] pstmt - delete from title where title_no = 6
+[TRACE] [2020-02-15 14:50:59] tearDown()
+[TRACE] [2020-02-15 14:50:59] tearDownAfterClass()
+[TRACE] [2020-02-15 14:50:59] setUpBeforeClass()
+[TRACE] [2020-02-15 14:50:59] setUp()
+[TRACE] [2020-02-15 14:50:59] test()
+[TRACE] [2020-02-15 14:50:59] HikariProxyConnection@76879847 wrapping com.mysql.jdbc.JDBC4Connection@5d427389
+[TRACE] [2020-02-15 14:50:59] tearDown()
+[TRACE] [2020-02-15 14:50:59] tearDownAfterClass()
+[TRACE] [2020-02-15 14:53:55] setUpBeforeClass()
+[TRACE] [2020-02-15 14:53:55] setUp()
+[TRACE] [2020-02-15 14:53:55] test01SelectEmployeeByNo()
+[TRACE] [2020-02-15 14:53:55] pstmt - select emp_no, emp_name, title, salary, gender, dept, hire_date from employee where emp_no = 1003
+[TRACE] [2020-02-15 14:53:55] tearDown()
+[TRACE] [2020-02-15 14:53:55] setUp()
+[TRACE] [2020-02-15 14:53:55] test02SelectEmployeeByAll()
+[TRACE] [2020-02-15 14:53:55] tearDown()
+[TRACE] [2020-02-15 14:53:55] setUp()
+[TRACE] [2020-02-15 14:53:55] test03InsertEmployee()
+[TRACE] [2020-02-15 14:53:55] Employee [empNo=1006, empName=¿Ã¿Ø∏Æ, title=Title [titleNo=3, titleName=null], salary=3000000, gender=1, dept=Department [deptNo=2, deptName=null, floor=0], hireDate=Sat Feb 15 14:53:55 KST 2020]
+[TRACE] [2020-02-15 14:53:55] pstmt - insert into employee (emp_no, emp_name, title, salary, gender, dept, hire_date) values (1006,'¿Ã¿Ø∏Æ',3,3000000,1,2,'2020-02-15 14:53:55.282')
+[TRACE] [2020-02-15 14:53:55] tearDown()
+[TRACE] [2020-02-15 14:53:55] setUp()
+[TRACE] [2020-02-15 14:53:55] test04UpdateEmployee()
+[TRACE] [2020-02-15 14:53:55] Employee [empNo=1006, empName=¿Ã¿Ø¡§, title=Title [titleNo=3, titleName=null], salary=3000000, gender=1, dept=Department [deptNo=2, deptName=null, floor=0], hireDate=Sat Feb 15 14:53:55 KST 2020]
+[TRACE] [2020-02-15 14:53:55] pstmt - update employee set emp_name='¿Ã¿Ø¡§', title=3, salary=3000000, gender=1, dept=2, hire_date='2020-02-15 14:53:55.293' where emp_no=1006
+[TRACE] [2020-02-15 14:53:55] tearDown()
+[TRACE] [2020-02-15 14:53:55] setUp()
+[TRACE] [2020-02-15 14:53:55] test05DeleteEmployee()
+[TRACE] [2020-02-15 14:53:55] pstmt - delete from employee where emp_no=1006
+[TRACE] [2020-02-15 14:53:55] tearDown()
+[TRACE] [2020-02-15 14:53:55] tearDownAfterClass()
+[TRACE] [2020-02-15 14:53:55] setUpBeforeClass()
+[TRACE] [2020-02-15 14:53:55] setUp()
+[TRACE] [2020-02-15 14:53:55] test01SelectDepartmentByNo()
+[TRACE] [2020-02-15 14:53:55] pstmt - select dept_no, dept_name, floor from department where dept_no = 1
+[TRACE] [2020-02-15 14:53:55] Department [deptNo=1, deptName=øµæ˜, floor=8]
+[TRACE] [2020-02-15 14:53:55] tearDown()
+[TRACE] [2020-02-15 14:53:55] setUp()
+[TRACE] [2020-02-15 14:53:55] test02SelectDepartmentByAll()
+[TRACE] [2020-02-15 14:53:55] Department [deptNo=1, deptName=øµæ˜, floor=8]
+[TRACE] [2020-02-15 14:53:55] Department [deptNo=2, deptName=¿ŒªÁ, floor=12]
+[TRACE] [2020-02-15 14:53:55] Department [deptNo=3, deptName=∞≥πﬂ, floor=10]
+[TRACE] [2020-02-15 14:53:55] Department [deptNo=4, deptName=√—π´, floor=7]
+[TRACE] [2020-02-15 14:53:55] Department [deptNo=7, deptName=øµæ˜2, floor=19]
+[TRACE] [2020-02-15 14:53:55] tearDown()
+[TRACE] [2020-02-15 14:53:55] setUp()
+[TRACE] [2020-02-15 14:53:55] test03InserDepartment()
+[TRACE] [2020-02-15 14:53:55] pstmt - insert into department values(5, '∏∂ƒ…∆√', 12)
+[TRACE] [2020-02-15 14:53:55] tearDown()
+[TRACE] [2020-02-15 14:53:55] setUp()
+[TRACE] [2020-02-15 14:53:55] test04UpdateDepartment()
+[TRACE] [2020-02-15 14:53:55] pstmt - update department set dept_name = '∏πŸ¿œ∞≥πﬂ', floor = 11 where dept_no = 5
+[TRACE] [2020-02-15 14:53:55] tearDown()
+[TRACE] [2020-02-15 14:53:55] setUp()
+[TRACE] [2020-02-15 14:53:55] test05DeleteDepartment()
+[TRACE] [2020-02-15 14:53:55] pstmt - delete from department where dept_no = 5
+[TRACE] [2020-02-15 14:53:55] tearDown()
+[TRACE] [2020-02-15 14:53:55] setUp()
+[TRACE] [2020-02-15 14:53:55] test06SelectDepartmentLastData()
+[TRACE] [2020-02-15 14:53:55] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-15 14:53:55] Department [deptNo=7, deptName=null, floor=0]
+[TRACE] [2020-02-15 14:53:55] tearDown()
+[TRACE] [2020-02-15 14:53:55] tearDownAfterClass()
+[TRACE] [2020-02-15 14:53:55] setUpBeforeClass()
+[TRACE] [2020-02-15 14:53:55] setUp()
+[TRACE] [2020-02-15 14:53:55] test01SelectTitleByNo()
+[TRACE] [2020-02-15 14:53:55] pstmt - select title_no, title_name from title where title_no=1
+[TRACE] [2020-02-15 14:53:55] Title [titleNo=1, titleName=»∏¿Â]
+[TRACE] [2020-02-15 14:53:55] tearDown()
+[TRACE] [2020-02-15 14:53:55] setUp()
+[TRACE] [2020-02-15 14:53:55] test02SelectTitleByAll()
+[TRACE] [2020-02-15 14:53:55] Title [titleNo=1, titleName=»∏¿Â]
+[TRACE] [2020-02-15 14:53:55] Title [titleNo=2, titleName=∫Œ¿Â]
+[TRACE] [2020-02-15 14:53:55] Title [titleNo=3, titleName=∞˙¿Â]
+[TRACE] [2020-02-15 14:53:55] Title [titleNo=4, titleName=¥Î∏Æ]
+[TRACE] [2020-02-15 14:53:55] Title [titleNo=5, titleName=ªÁø¯]
+[TRACE] [2020-02-15 14:53:55] tearDown()
+[TRACE] [2020-02-15 14:53:55] setUp()
+[TRACE] [2020-02-15 14:53:55] test03InsertTitle()
+[TRACE] [2020-02-15 14:53:55] pstmt - insert into title values (6,'¿Œ≈œ')
+[TRACE] [2020-02-15 14:53:55] tearDown()
+[TRACE] [2020-02-15 14:53:55] setUp()
+[TRACE] [2020-02-15 14:53:55] test04UpdateTitle()
+[TRACE] [2020-02-15 14:53:55] pstmt - update title set title_name = '»∏¿Â' where title_no = 1
+[TRACE] [2020-02-15 14:53:55] tearDown()
+[TRACE] [2020-02-15 14:53:55] setUp()
+[TRACE] [2020-02-15 14:53:55] test05DeleteTitle()
+[TRACE] [2020-02-15 14:53:55] pstmt - delete from title where title_no = 6
+[TRACE] [2020-02-15 14:53:55] tearDown()
+[TRACE] [2020-02-15 14:53:55] tearDownAfterClass()
+[TRACE] [2020-02-15 14:53:55] setUpBeforeClass()
+[TRACE] [2020-02-15 14:53:55] setUp()
+[TRACE] [2020-02-15 14:53:55] test()
+[TRACE] [2020-02-15 14:53:55] HikariProxyConnection@1564636041 wrapping com.mysql.jdbc.JDBC4Connection@38347d6c
+[TRACE] [2020-02-15 14:53:55] tearDown()
+[TRACE] [2020-02-15 14:53:55] tearDownAfterClass()
+[TRACE] [2020-02-15 14:54:01] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-15 14:54:10] pstmt - delete from department where dept_no = 7
+[TRACE] [2020-02-15 14:54:23] pstmt - insert into department values(8, 'ÎßàÏºÄÌåÖ', 13)
+[TRACE] [2020-02-15 14:54:32] pstmt - update department set dept_name = 'Í∞úÎ∞ú', floor = 14 where dept_no = 3
+[TRACE] [2020-02-15 14:54:32] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-15 14:58:29] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-15 14:58:47] pstmt - insert into department values(5, 'ÎßàÏºÄÌåÖ', 13)
+[TRACE] [2020-02-15 14:59:42] pstmt - update department set dept_name = 'Ï¥ùÎ¨¥', floor = 9 where dept_no = 4
+[TRACE] [2020-02-15 14:59:42] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-15 14:59:59] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-15 15:00:02] pstmt - delete from department where dept_no = 5
+[TRACE] [2020-02-15 15:15:20] setUpBeforeClass()
+[TRACE] [2020-02-15 15:15:20] setUp()
+[TRACE] [2020-02-15 15:15:20] test01SelectEmployeeByNo()
+[TRACE] [2020-02-15 15:15:20] pstmt - select emp_no, emp_name, title, salary, gender, dept, hire_date from employee where emp_no = 1003
+[TRACE] [2020-02-15 15:15:20] tearDown()
+[TRACE] [2020-02-15 15:15:20] setUp()
+[TRACE] [2020-02-15 15:15:20] test02SelectEmployeeByAll()
+[TRACE] [2020-02-15 15:15:20] tearDown()
+[TRACE] [2020-02-15 15:15:20] setUp()
+[TRACE] [2020-02-15 15:15:20] test03InsertEmployee()
+[TRACE] [2020-02-15 15:15:20] Employee [empNo=1006, empName=¿Ã¿Ø∏Æ, title=Title [titleNo=3, titleName=null], salary=3000000, gender=1, dept=Department [deptNo=2, deptName=null, floor=0], hireDate=Sat Feb 15 15:15:20 KST 2020]
+[TRACE] [2020-02-15 15:15:20] pstmt - insert into employee (emp_no, emp_name, title, salary, gender, dept, hire_date) values (1006,'¿Ã¿Ø∏Æ',3,3000000,1,2,'2020-02-15 15:15:20.754')
+[TRACE] [2020-02-15 15:15:20] tearDown()
+[TRACE] [2020-02-15 15:15:20] setUp()
+[TRACE] [2020-02-15 15:15:20] test04UpdateEmployee()
+[TRACE] [2020-02-15 15:15:20] Employee [empNo=1006, empName=¿Ã¿Ø¡§, title=Title [titleNo=3, titleName=null], salary=3000000, gender=1, dept=Department [deptNo=2, deptName=null, floor=0], hireDate=Sat Feb 15 15:15:20 KST 2020]
+[TRACE] [2020-02-15 15:15:20] pstmt - update employee set emp_name='¿Ã¿Ø¡§', title=3, salary=3000000, gender=1, dept=2, hire_date='2020-02-15 15:15:20.767' where emp_no=1006
+[TRACE] [2020-02-15 15:15:20] tearDown()
+[TRACE] [2020-02-15 15:15:20] setUp()
+[TRACE] [2020-02-15 15:15:20] test05DeleteEmployee()
+[TRACE] [2020-02-15 15:15:20] pstmt - delete from employee where emp_no=1006
+[TRACE] [2020-02-15 15:15:20] tearDown()
+[TRACE] [2020-02-15 15:15:20] tearDownAfterClass()
+[TRACE] [2020-02-15 15:15:20] setUpBeforeClass()
+[TRACE] [2020-02-15 15:15:20] setUp()
+[TRACE] [2020-02-15 15:15:20] test01SelectDepartmentByNo()
+[TRACE] [2020-02-15 15:15:20] pstmt - select dept_no, dept_name, floor from department where dept_no = 1
+[TRACE] [2020-02-15 15:15:20] Department [deptNo=1, deptName=øµæ˜, floor=8]
+[TRACE] [2020-02-15 15:15:20] tearDown()
+[TRACE] [2020-02-15 15:15:20] setUp()
+[TRACE] [2020-02-15 15:15:20] test02SelectDepartmentByAll()
+[TRACE] [2020-02-15 15:15:20] Department [deptNo=1, deptName=øµæ˜, floor=8]
+[TRACE] [2020-02-15 15:15:20] Department [deptNo=2, deptName=¿ŒªÁ, floor=12]
+[TRACE] [2020-02-15 15:15:20] Department [deptNo=3, deptName=∞≥πﬂ, floor=14]
+[TRACE] [2020-02-15 15:15:20] Department [deptNo=4, deptName=√—π´, floor=9]
+[TRACE] [2020-02-15 15:15:20] tearDown()
+[TRACE] [2020-02-15 15:15:20] setUp()
+[TRACE] [2020-02-15 15:15:20] test03InserDepartment()
+[TRACE] [2020-02-15 15:15:20] pstmt - insert into department values(5, '∏∂ƒ…∆√', 12)
+[TRACE] [2020-02-15 15:15:20] tearDown()
+[TRACE] [2020-02-15 15:15:20] setUp()
+[TRACE] [2020-02-15 15:15:20] test04UpdateDepartment()
+[TRACE] [2020-02-15 15:15:20] pstmt - update department set dept_name = '∏πŸ¿œ∞≥πﬂ', floor = 11 where dept_no = 5
+[TRACE] [2020-02-15 15:15:20] tearDown()
+[TRACE] [2020-02-15 15:15:20] setUp()
+[TRACE] [2020-02-15 15:15:20] test05DeleteDepartment()
+[TRACE] [2020-02-15 15:15:20] pstmt - delete from department where dept_no = 5
+[TRACE] [2020-02-15 15:15:20] tearDown()
+[TRACE] [2020-02-15 15:15:20] setUp()
+[TRACE] [2020-02-15 15:15:20] test06SelectDepartmentLastData()
+[TRACE] [2020-02-15 15:15:20] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-15 15:15:20] Department [deptNo=4, deptName=null, floor=0]
+[TRACE] [2020-02-15 15:15:20] tearDown()
+[TRACE] [2020-02-15 15:15:20] tearDownAfterClass()
+[TRACE] [2020-02-15 15:15:20] setUpBeforeClass()
+[TRACE] [2020-02-15 15:15:20] setUp()
+[TRACE] [2020-02-15 15:15:20] test01SelectTitleByNo()
+[TRACE] [2020-02-15 15:15:20] pstmt - select title_no, title_name from title where title_no=1
+[TRACE] [2020-02-15 15:15:20] Title [titleNo=1, titleName=»∏¿Â]
+[TRACE] [2020-02-15 15:15:20] tearDown()
+[TRACE] [2020-02-15 15:15:20] setUp()
+[TRACE] [2020-02-15 15:15:20] test02SelectTitleByAll()
+[TRACE] [2020-02-15 15:15:20] Title [titleNo=1, titleName=»∏¿Â]
+[TRACE] [2020-02-15 15:15:20] Title [titleNo=2, titleName=∫Œ¿Â]
+[TRACE] [2020-02-15 15:15:20] Title [titleNo=3, titleName=∞˙¿Â]
+[TRACE] [2020-02-15 15:15:20] Title [titleNo=4, titleName=¥Î∏Æ]
+[TRACE] [2020-02-15 15:15:20] Title [titleNo=5, titleName=ªÁø¯]
+[TRACE] [2020-02-15 15:15:20] tearDown()
+[TRACE] [2020-02-15 15:15:20] setUp()
+[TRACE] [2020-02-15 15:15:20] test03InsertTitle()
+[TRACE] [2020-02-15 15:15:20] pstmt - insert into title values (6,'¿Œ≈œ')
+[TRACE] [2020-02-15 15:15:20] tearDown()
+[TRACE] [2020-02-15 15:15:20] setUp()
+[TRACE] [2020-02-15 15:15:20] test04UpdateTitle()
+[TRACE] [2020-02-15 15:15:20] pstmt - update title set title_name = '»∏¿Â' where title_no = 1
+[TRACE] [2020-02-15 15:15:20] tearDown()
+[TRACE] [2020-02-15 15:15:20] setUp()
+[TRACE] [2020-02-15 15:15:20] test05DeleteTitle()
+[TRACE] [2020-02-15 15:15:20] pstmt - delete from title where title_no = 6
+[TRACE] [2020-02-15 15:15:20] tearDown()
+[TRACE] [2020-02-15 15:15:20] setUp()
+[TRACE] [2020-02-15 15:15:20] test06SelectTitleLastData()
+[TRACE] [2020-02-15 15:15:20] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-15 15:15:20] Title [titleNo=5, titleName=null]
+[TRACE] [2020-02-15 15:15:20] tearDown()
+[TRACE] [2020-02-15 15:15:20] tearDownAfterClass()
+[TRACE] [2020-02-15 15:15:20] setUpBeforeClass()
+[TRACE] [2020-02-15 15:15:20] setUp()
+[TRACE] [2020-02-15 15:15:20] test()
+[TRACE] [2020-02-15 15:15:20] HikariProxyConnection@300674223 wrapping com.mysql.jdbc.JDBC4Connection@3d6dfb5a
+[TRACE] [2020-02-15 15:15:20] tearDown()
+[TRACE] [2020-02-15 15:15:20] tearDownAfterClass()
+[TRACE] [2020-02-15 16:06:38] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-15 16:07:23] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-15 16:08:26] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-15 16:08:56] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-15 16:09:10] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-15 16:10:18] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-15 16:10:25] pstmt - update title set title_name = 'Ïù∏ÌÑ¥' where title_no = 5
+[TRACE] [2020-02-15 16:10:25] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-15 16:10:35] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-15 16:10:41] pstmt - update title set title_name = 'ÏÇ¨Ïõê' where title_no = 5
+[TRACE] [2020-02-15 16:10:41] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-15 16:10:59] pstmt - update title set title_name = 'Ïù∏ÌÑ¥' where title_no = 5
+[TRACE] [2020-02-15 16:10:59] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-15 16:11:18] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-15 16:11:26] pstmt - update title set title_name = 'ÏÇ¨Ïõê' where title_no = 5
+[TRACE] [2020-02-15 16:11:26] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-15 16:11:34] pstmt - insert into title values (6,'Ïù∏ÌÑ¥')
+[TRACE] [2020-02-15 16:11:34] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-15 16:11:54] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-15 16:11:58] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-15 16:11:59] pstmt - delete from title where title_no = 6
+[TRACE] [2020-02-15 16:12:07] pstmt - insert into title values (7,'Ïù∏ÌÑ¥')
+[TRACE] [2020-02-15 16:12:07] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-15 16:12:11] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-15 16:21:03] setUpBeforeClass()
+[TRACE] [2020-02-15 16:21:03] setUp()
+[TRACE] [2020-02-15 16:21:03] test01SelectEmployeeByNo()
+[TRACE] [2020-02-15 16:21:03] pstmt - select emp_no, emp_name, title, salary, gender, dept, hire_date from employee where emp_no = 1003
+[TRACE] [2020-02-15 16:21:03] tearDown()
+[TRACE] [2020-02-15 16:21:03] setUp()
+[TRACE] [2020-02-15 16:21:03] test02SelectEmployeeByAll()
+[TRACE] [2020-02-15 16:21:03] tearDown()
+[TRACE] [2020-02-15 16:21:03] setUp()
+[TRACE] [2020-02-15 16:21:03] test03InsertEmployee()
+[TRACE] [2020-02-15 16:21:03] Employee [empNo=1006, empName=¿Ã¿Ø∏Æ, title=Title [titleNo=3, titleName=null], salary=3000000, gender=1, dept=Department [deptNo=2, deptName=null, floor=0], hireDate=Sat Feb 15 16:21:03 KST 2020]
+[TRACE] [2020-02-15 16:21:03] pstmt - insert into employee (emp_no, emp_name, title, salary, gender, dept, hire_date) values (1006,'¿Ã¿Ø∏Æ',3,3000000,1,2,'2020-02-15 16:21:03.686')
+[TRACE] [2020-02-15 16:21:03] tearDown()
+[TRACE] [2020-02-15 16:21:03] setUp()
+[TRACE] [2020-02-15 16:21:03] test04UpdateEmployee()
+[TRACE] [2020-02-15 16:21:03] Employee [empNo=1006, empName=¿Ã¿Ø¡§, title=Title [titleNo=3, titleName=null], salary=3000000, gender=1, dept=Department [deptNo=2, deptName=null, floor=0], hireDate=Sat Feb 15 16:21:03 KST 2020]
+[TRACE] [2020-02-15 16:21:03] pstmt - update employee set emp_name='¿Ã¿Ø¡§', title=3, salary=3000000, gender=1, dept=2, hire_date='2020-02-15 16:21:03.695' where emp_no=1006
+[TRACE] [2020-02-15 16:21:03] tearDown()
+[TRACE] [2020-02-15 16:21:03] setUp()
+[TRACE] [2020-02-15 16:21:03] test05DeleteEmployee()
+[TRACE] [2020-02-15 16:21:03] pstmt - delete from employee where emp_no=1006
+[TRACE] [2020-02-15 16:21:03] tearDown()
+[TRACE] [2020-02-15 16:21:03] setUp()
+[TRACE] [2020-02-15 16:21:03] test06SelectEmployeeLastData()
+[TRACE] [2020-02-15 16:21:03] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 16:21:03] tearDown()
+[TRACE] [2020-02-15 16:21:03] tearDownAfterClass()
+[TRACE] [2020-02-15 16:21:03] setUpBeforeClass()
+[TRACE] [2020-02-15 16:21:03] setUp()
+[TRACE] [2020-02-15 16:21:03] test01SelectDepartmentByNo()
+[TRACE] [2020-02-15 16:21:03] pstmt - select dept_no, dept_name, floor from department where dept_no = 1
+[TRACE] [2020-02-15 16:21:03] Department [deptNo=1, deptName=øµæ˜, floor=8]
+[TRACE] [2020-02-15 16:21:03] tearDown()
+[TRACE] [2020-02-15 16:21:03] setUp()
+[TRACE] [2020-02-15 16:21:03] test02SelectDepartmentByAll()
+[TRACE] [2020-02-15 16:21:03] Department [deptNo=1, deptName=øµæ˜, floor=8]
+[TRACE] [2020-02-15 16:21:03] Department [deptNo=2, deptName=¿ŒªÁ, floor=12]
+[TRACE] [2020-02-15 16:21:03] Department [deptNo=3, deptName=∞≥πﬂ, floor=14]
+[TRACE] [2020-02-15 16:21:03] Department [deptNo=4, deptName=√—π´, floor=9]
+[TRACE] [2020-02-15 16:21:03] tearDown()
+[TRACE] [2020-02-15 16:21:03] setUp()
+[TRACE] [2020-02-15 16:21:03] test03InserDepartment()
+[TRACE] [2020-02-15 16:21:03] pstmt - insert into department values(5, '∏∂ƒ…∆√', 12)
+[TRACE] [2020-02-15 16:21:03] tearDown()
+[TRACE] [2020-02-15 16:21:03] setUp()
+[TRACE] [2020-02-15 16:21:03] test04UpdateDepartment()
+[TRACE] [2020-02-15 16:21:03] pstmt - update department set dept_name = '∏πŸ¿œ∞≥πﬂ', floor = 11 where dept_no = 5
+[TRACE] [2020-02-15 16:21:03] tearDown()
+[TRACE] [2020-02-15 16:21:03] setUp()
+[TRACE] [2020-02-15 16:21:03] test05DeleteDepartment()
+[TRACE] [2020-02-15 16:21:03] pstmt - delete from department where dept_no = 5
+[TRACE] [2020-02-15 16:21:03] tearDown()
+[TRACE] [2020-02-15 16:21:03] setUp()
+[TRACE] [2020-02-15 16:21:03] test06SelectDepartmentLastData()
+[TRACE] [2020-02-15 16:21:03] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-15 16:21:03] Department [deptNo=4, deptName=null, floor=0]
+[TRACE] [2020-02-15 16:21:03] tearDown()
+[TRACE] [2020-02-15 16:21:03] tearDownAfterClass()
+[TRACE] [2020-02-15 16:21:03] setUpBeforeClass()
+[TRACE] [2020-02-15 16:21:03] setUp()
+[TRACE] [2020-02-15 16:21:03] test01SelectTitleByNo()
+[TRACE] [2020-02-15 16:21:03] pstmt - select title_no, title_name from title where title_no=1
+[TRACE] [2020-02-15 16:21:03] Title [titleNo=1, titleName=»∏¿Â]
+[TRACE] [2020-02-15 16:21:03] tearDown()
+[TRACE] [2020-02-15 16:21:03] setUp()
+[TRACE] [2020-02-15 16:21:03] test02SelectTitleByAll()
+[TRACE] [2020-02-15 16:21:03] Title [titleNo=1, titleName=»∏¿Â]
+[TRACE] [2020-02-15 16:21:03] Title [titleNo=2, titleName=∫Œ¿Â]
+[TRACE] [2020-02-15 16:21:03] Title [titleNo=3, titleName=∞˙¿Â]
+[TRACE] [2020-02-15 16:21:03] Title [titleNo=4, titleName=¥Î∏Æ]
+[TRACE] [2020-02-15 16:21:03] Title [titleNo=5, titleName=ªÁø¯]
+[TRACE] [2020-02-15 16:21:03] Title [titleNo=7, titleName=¿Œ≈œ]
+[TRACE] [2020-02-15 16:21:03] tearDown()
+[TRACE] [2020-02-15 16:21:03] setUp()
+[TRACE] [2020-02-15 16:21:03] test03InsertTitle()
+[TRACE] [2020-02-15 16:21:03] pstmt - insert into title values (6,'¿Œ≈œ')
+[TRACE] [2020-02-15 16:21:03] tearDown()
+[TRACE] [2020-02-15 16:21:03] setUp()
+[TRACE] [2020-02-15 16:21:03] test04UpdateTitle()
+[TRACE] [2020-02-15 16:21:03] pstmt - update title set title_name = '»∏¿Â' where title_no = 1
+[TRACE] [2020-02-15 16:21:03] tearDown()
+[TRACE] [2020-02-15 16:21:03] setUp()
+[TRACE] [2020-02-15 16:21:03] test05DeleteTitle()
+[TRACE] [2020-02-15 16:21:03] pstmt - delete from title where title_no = 6
+[TRACE] [2020-02-15 16:21:03] tearDown()
+[TRACE] [2020-02-15 16:21:03] setUp()
+[TRACE] [2020-02-15 16:21:03] test06SelectTitleLastData()
+[TRACE] [2020-02-15 16:21:03] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-15 16:21:03] Title [titleNo=7, titleName=null]
+[TRACE] [2020-02-15 16:21:03] tearDown()
+[TRACE] [2020-02-15 16:21:03] tearDownAfterClass()
+[TRACE] [2020-02-15 16:21:03] setUpBeforeClass()
+[TRACE] [2020-02-15 16:21:03] setUp()
+[TRACE] [2020-02-15 16:21:03] test()
+[TRACE] [2020-02-15 16:21:03] HikariProxyConnection@645513847 wrapping com.mysql.jdbc.JDBC4Connection@749c4ac9
+[TRACE] [2020-02-15 16:21:03] tearDown()
+[TRACE] [2020-02-15 16:21:03] tearDownAfterClass()
+[TRACE] [2020-02-15 16:23:50] setUpBeforeClass()
+[TRACE] [2020-02-15 16:23:50] setUp()
+[TRACE] [2020-02-15 16:23:50] test01SelectEmployeeByNo()
+[TRACE] [2020-02-15 16:23:51] pstmt - select emp_no, emp_name, title, salary, gender, dept, hire_date from employee where emp_no = 3
+[TRACE] [2020-02-15 16:23:51] Employee [empNo=3, empName=¡∂πŒ»Ò, title=Title [titleNo=3, titleName=null], salary=3000000, gender=1, dept=Department [deptNo=2, deptName=null, floor=0], hireDate=2005-07-01 00:00:00.0]
+[TRACE] [2020-02-15 16:23:51] 2005-07-01 - 00:00:00 2005≥‚ 07ø˘ 01¿œ 00Ω√ 00∫– 00√  
+[TRACE] [2020-02-15 16:23:51] 2005 ≥‚
+[TRACE] [2020-02-15 16:23:51] 7 ø˘
+[TRACE] [2020-02-15 16:23:51] 1 ¿œ
+[TRACE] [2020-02-15 16:23:51] 0Ω√ 0∫– 0√ 
+[TRACE] [2020-02-15 16:23:51] tearDown()
+[TRACE] [2020-02-15 16:23:51] setUp()
+[TRACE] [2020-02-15 16:23:51] test02SelectEmployeeByAll()
+[TRACE] [2020-02-15 16:23:51] tearDown()
+[TRACE] [2020-02-15 16:23:51] setUp()
+[TRACE] [2020-02-15 16:23:51] test03InsertEmployee()
+[TRACE] [2020-02-15 16:23:51] Employee [empNo=9, empName=¿Ã¿Ø∏Æ, title=Title [titleNo=3, titleName=null], salary=3000000, gender=1, dept=Department [deptNo=2, deptName=null, floor=0], hireDate=Sat Feb 15 16:23:51 KST 2020]
+[TRACE] [2020-02-15 16:23:51] pstmt - insert into employee (emp_no, emp_name, title, salary, gender, dept, hire_date) values (9,'¿Ã¿Ø∏Æ',3,3000000,1,2,'2020-02-15 16:23:51.069')
+[TRACE] [2020-02-15 16:23:51] tearDown()
+[TRACE] [2020-02-15 16:23:51] setUp()
+[TRACE] [2020-02-15 16:23:51] test04UpdateEmployee()
+[TRACE] [2020-02-15 16:23:51] Employee [empNo=9, empName=¿Ã¿Ø¡§, title=Title [titleNo=3, titleName=null], salary=3000000, gender=1, dept=Department [deptNo=2, deptName=null, floor=0], hireDate=Sat Feb 15 16:23:51 KST 2020]
+[TRACE] [2020-02-15 16:23:51] pstmt - update employee set emp_name='¿Ã¿Ø¡§', title=3, salary=3000000, gender=1, dept=2, hire_date='2020-02-15 16:23:51.078' where emp_no=9
+[TRACE] [2020-02-15 16:23:51] tearDown()
+[TRACE] [2020-02-15 16:23:51] setUp()
+[TRACE] [2020-02-15 16:23:51] test05DeleteEmployee()
+[TRACE] [2020-02-15 16:23:51] pstmt - delete from employee where emp_no=9
+[TRACE] [2020-02-15 16:23:51] tearDown()
+[TRACE] [2020-02-15 16:23:51] setUp()
+[TRACE] [2020-02-15 16:23:51] test06SelectEmployeeLastData()
+[TRACE] [2020-02-15 16:23:51] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 16:23:51] Employee [empNo=8, empName=null, title=null, salary=0, gender=0, dept=null, hireDate=null]
+[TRACE] [2020-02-15 16:23:51] tearDown()
+[TRACE] [2020-02-15 16:23:51] tearDownAfterClass()
+[TRACE] [2020-02-15 16:23:51] setUpBeforeClass()
+[TRACE] [2020-02-15 16:23:51] setUp()
+[TRACE] [2020-02-15 16:23:51] test01SelectDepartmentByNo()
+[TRACE] [2020-02-15 16:23:51] pstmt - select dept_no, dept_name, floor from department where dept_no = 1
+[TRACE] [2020-02-15 16:23:51] Department [deptNo=1, deptName=øµæ˜, floor=8]
+[TRACE] [2020-02-15 16:23:51] tearDown()
+[TRACE] [2020-02-15 16:23:51] setUp()
+[TRACE] [2020-02-15 16:23:51] test02SelectDepartmentByAll()
+[TRACE] [2020-02-15 16:23:51] Department [deptNo=1, deptName=øµæ˜, floor=8]
+[TRACE] [2020-02-15 16:23:51] Department [deptNo=2, deptName=¿ŒªÁ, floor=12]
+[TRACE] [2020-02-15 16:23:51] Department [deptNo=3, deptName=∞≥πﬂ, floor=14]
+[TRACE] [2020-02-15 16:23:51] Department [deptNo=4, deptName=√—π´, floor=9]
+[TRACE] [2020-02-15 16:23:51] tearDown()
+[TRACE] [2020-02-15 16:23:51] setUp()
+[TRACE] [2020-02-15 16:23:51] test03InserDepartment()
+[TRACE] [2020-02-15 16:23:51] pstmt - insert into department values(5, '∏∂ƒ…∆√', 12)
+[TRACE] [2020-02-15 16:23:51] tearDown()
+[TRACE] [2020-02-15 16:23:51] setUp()
+[TRACE] [2020-02-15 16:23:51] test04UpdateDepartment()
+[TRACE] [2020-02-15 16:23:51] pstmt - update department set dept_name = '∏πŸ¿œ∞≥πﬂ', floor = 11 where dept_no = 5
+[TRACE] [2020-02-15 16:23:51] tearDown()
+[TRACE] [2020-02-15 16:23:51] setUp()
+[TRACE] [2020-02-15 16:23:51] test05DeleteDepartment()
+[TRACE] [2020-02-15 16:23:51] pstmt - delete from department where dept_no = 5
+[TRACE] [2020-02-15 16:23:51] tearDown()
+[TRACE] [2020-02-15 16:23:51] setUp()
+[TRACE] [2020-02-15 16:23:51] test06SelectDepartmentLastData()
+[TRACE] [2020-02-15 16:23:51] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-15 16:23:51] Department [deptNo=4, deptName=null, floor=0]
+[TRACE] [2020-02-15 16:23:51] tearDown()
+[TRACE] [2020-02-15 16:23:51] tearDownAfterClass()
+[TRACE] [2020-02-15 16:23:51] setUpBeforeClass()
+[TRACE] [2020-02-15 16:23:51] setUp()
+[TRACE] [2020-02-15 16:23:51] test01SelectTitleByNo()
+[TRACE] [2020-02-15 16:23:51] pstmt - select title_no, title_name from title where title_no=1
+[TRACE] [2020-02-15 16:23:51] Title [titleNo=1, titleName=»∏¿Â]
+[TRACE] [2020-02-15 16:23:51] tearDown()
+[TRACE] [2020-02-15 16:23:51] setUp()
+[TRACE] [2020-02-15 16:23:51] test02SelectTitleByAll()
+[TRACE] [2020-02-15 16:23:51] Title [titleNo=1, titleName=»∏¿Â]
+[TRACE] [2020-02-15 16:23:51] Title [titleNo=2, titleName=∫Œ¿Â]
+[TRACE] [2020-02-15 16:23:51] Title [titleNo=3, titleName=∞˙¿Â]
+[TRACE] [2020-02-15 16:23:51] Title [titleNo=4, titleName=¥Î∏Æ]
+[TRACE] [2020-02-15 16:23:51] Title [titleNo=5, titleName=ªÁø¯]
+[TRACE] [2020-02-15 16:23:51] Title [titleNo=7, titleName=¿Œ≈œ]
+[TRACE] [2020-02-15 16:23:51] tearDown()
+[TRACE] [2020-02-15 16:23:51] setUp()
+[TRACE] [2020-02-15 16:23:51] test03InsertTitle()
+[TRACE] [2020-02-15 16:23:51] pstmt - insert into title values (6,'¿Œ≈œ')
+[TRACE] [2020-02-15 16:23:51] tearDown()
+[TRACE] [2020-02-15 16:23:51] setUp()
+[TRACE] [2020-02-15 16:23:51] test04UpdateTitle()
+[TRACE] [2020-02-15 16:23:51] pstmt - update title set title_name = '»∏¿Â' where title_no = 1
+[TRACE] [2020-02-15 16:23:51] tearDown()
+[TRACE] [2020-02-15 16:23:51] setUp()
+[TRACE] [2020-02-15 16:23:51] test05DeleteTitle()
+[TRACE] [2020-02-15 16:23:51] pstmt - delete from title where title_no = 6
+[TRACE] [2020-02-15 16:23:51] tearDown()
+[TRACE] [2020-02-15 16:23:51] setUp()
+[TRACE] [2020-02-15 16:23:51] test06SelectTitleLastData()
+[TRACE] [2020-02-15 16:23:51] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-15 16:23:51] Title [titleNo=7, titleName=null]
+[TRACE] [2020-02-15 16:23:51] tearDown()
+[TRACE] [2020-02-15 16:23:51] tearDownAfterClass()
+[TRACE] [2020-02-15 16:23:51] setUpBeforeClass()
+[TRACE] [2020-02-15 16:23:51] setUp()
+[TRACE] [2020-02-15 16:23:51] test()
+[TRACE] [2020-02-15 16:23:51] HikariProxyConnection@1564636041 wrapping com.mysql.jdbc.JDBC4Connection@38347d6c
+[TRACE] [2020-02-15 16:23:51] tearDown()
+[TRACE] [2020-02-15 16:23:51] tearDownAfterClass()
+[TRACE] [2020-02-15 17:47:09] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-15 17:47:15] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-15 19:19:23] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 19:20:03] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 19:21:33] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 19:21:52] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 19:22:18] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 19:22:27] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 19:25:09] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 19:25:30] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 19:30:19] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 19:36:10] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 19:37:03] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 19:37:56] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 19:38:32] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 19:38:40] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-15 19:38:48] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-15 19:38:51] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-15 19:38:57] pstmt - update title set title_name = 'ÏÇ¨Ïû•' where title_no = 1
+[TRACE] [2020-02-15 19:38:57] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-15 19:39:02] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 19:41:03] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 19:46:24] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 19:54:18] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 19:55:39] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 19:59:25] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:19:40] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:21:39] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:22:15] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:22:56] Employee [empNo=9, empName=ÌòÑÏû¨Ïäπ, title=ÏÇ¨Ïõê, salary=3000000, gender=0, dept=Í∞úÎ∞ú(14Ï∏µ), hireDate=Sat Feb 15 20:22:14 KST 2020]
+[TRACE] [2020-02-15 20:22:56] pstmt - insert into employee (emp_no, emp_name, title, salary, gender, dept, hire_date) values (9,'ÌòÑÏû¨Ïäπ',5,3000000,0,3,'2020-02-15 20:22:14.696')
+[TRACE] [2020-02-15 20:22:56] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:23:05] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:23:31] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:25:26] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:25:31] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:25:45] pstmt - delete from employee where emp_no=9
+[TRACE] [2020-02-15 20:25:49] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:32:08] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:32:22] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:32:35] Employee [empNo=9, empName=ÌòÑÏû¨Ïäπ, title=Ïù∏ÌÑ¥, salary=1500000, gender=0, dept=Ïù∏ÏÇ¨(12Ï∏µ), hireDate=Sat Feb 15 20:32:22 KST 2020]
+[TRACE] [2020-02-15 20:32:35] pstmt - insert into employee (emp_no, emp_name, title, salary, gender, dept, hire_date) values (9,'ÌòÑÏû¨Ïäπ',7,1500000,0,2,'2020-02-15 20:32:22.586')
+[TRACE] [2020-02-15 20:32:35] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:32:47] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:32:51] pstmt - delete from employee where emp_no=9
+[TRACE] [2020-02-15 20:33:02] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:33:09] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:33:22] pstmt - update employee set emp_name='Ïù¥ÏàòÎØº', title=2, salary=4000000, gender=0, dept=3, hire_date='2007-07-01 00:00:00' where emp_no=4
+[TRACE] [2020-02-15 20:33:22] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:42:24] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:43:10] pstmt - update employee set emp_name='Ïù¥ÏÑ±Îûò', title=1, salary=5000000, gender=0, dept=2, hire_date='2000-03-01 00:00:00' where emp_no=1
+[TRACE] [2020-02-15 20:43:10] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:43:14] pstmt - update employee set emp_name='Î∞ïÏòÅÍ∂å', title=3, salary=3000000, gender=0, dept=1, hire_date='2000-07-01 00:00:00' where emp_no=2
+[TRACE] [2020-02-15 20:43:14] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:43:16] pstmt - update employee set emp_name='Ï°∞ÎØºÌù¨', title=3, salary=3000000, gender=1, dept=2, hire_date='2005-07-01 00:00:00' where emp_no=3
+[TRACE] [2020-02-15 20:43:16] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:43:19] pstmt - update employee set emp_name='Ïù¥ÏàòÎØº', title=2, salary=4000000, gender=0, dept=3, hire_date='2007-07-01 00:00:00' where emp_no=4
+[TRACE] [2020-02-15 20:43:19] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:43:22] pstmt - update employee set emp_name='ÍπÄÏ∞ΩÏÑ≠', title=4, salary=2500000, gender=0, dept=2, hire_date='2010-12-01 00:00:00' where emp_no=5
+[TRACE] [2020-02-15 20:43:22] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:43:24] pstmt - update employee set emp_name='ÏµúÏ¢ÖÏ≤†', title=5, salary=1500000, gender=0, dept=3, hire_date='2010-10-01 00:00:00' where emp_no=6
+[TRACE] [2020-02-15 20:43:24] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:43:26] pstmt - update employee set emp_name='Ïù¥Ïú†ÏòÅ', title=5, salary=1500000, gender=1, dept=4, hire_date='2010-12-01 00:00:00' where emp_no=7
+[TRACE] [2020-02-15 20:43:26] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:43:28] pstmt - update employee set emp_name='ÏÑúÌòÑÏßÑ', title=3, salary=3000000, gender=1, dept=4, hire_date='2007-11-01 00:00:00' where emp_no=8
+[TRACE] [2020-02-15 20:43:28] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:43:47] pstmt - update employee set emp_name='ÏµúÏ¢ÖÏ≤†', title=5, salary=1500000, gender=0, dept=3, hire_date='2010-10-01 00:00:00' where emp_no=6
+[TRACE] [2020-02-15 20:43:47] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:44:30] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:44:38] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:44:42] pstmt - update employee set emp_name='Ïù¥ÏÑ±Îûò', title=1, salary=5000000, gender=0, dept=2, hire_date='2000-03-01 00:00:00' where emp_no=1
+[TRACE] [2020-02-15 20:44:42] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:44:44] pstmt - update employee set emp_name='Î∞ïÏòÅÍ∂å', title=3, salary=3000000, gender=0, dept=1, hire_date='2000-07-01 00:00:00' where emp_no=2
+[TRACE] [2020-02-15 20:44:44] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:44:48] pstmt - update employee set emp_name='Ï°∞ÎØºÌù¨', title=3, salary=3000000, gender=1, dept=2, hire_date='2005-07-01 00:00:00' where emp_no=3
+[TRACE] [2020-02-15 20:44:48] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:44:55] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:44:57] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:45:15] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:45:19] pstmt - update employee set emp_name='Ïù¥ÏÑ±Îûò', title=1, salary=5000000, gender=0, dept=2, hire_date='2000-03-01 00:00:00' where emp_no=1
+[TRACE] [2020-02-15 20:45:19] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:45:21] pstmt - update employee set emp_name='Î∞ïÏòÅÍ∂å', title=3, salary=3000000, gender=0, dept=1, hire_date='2000-07-01 00:00:00' where emp_no=2
+[TRACE] [2020-02-15 20:45:21] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:45:24] pstmt - update employee set emp_name='Ï°∞ÎØºÌù¨', title=3, salary=3000000, gender=1, dept=2, hire_date='2005-07-01 00:00:00' where emp_no=3
+[TRACE] [2020-02-15 20:45:24] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:45:27] pstmt - update employee set emp_name='Ïù¥ÏàòÎØº', title=2, salary=4000000, gender=0, dept=3, hire_date='2007-07-01 00:00:00' where emp_no=4
+[TRACE] [2020-02-15 20:45:27] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:45:29] pstmt - update employee set emp_name='ÍπÄÏ∞ΩÏÑ≠', title=4, salary=2500000, gender=0, dept=2, hire_date='2010-12-01 00:00:00' where emp_no=5
+[TRACE] [2020-02-15 20:45:29] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:45:32] pstmt - update employee set emp_name='ÏµúÏ¢ÖÏ≤†', title=5, salary=1500000, gender=0, dept=3, hire_date='2010-10-01 00:00:00' where emp_no=6
+[TRACE] [2020-02-15 20:45:32] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:45:34] pstmt - update employee set emp_name='Ïù¥Ïú†ÏòÅ', title=5, salary=1500000, gender=1, dept=4, hire_date='2010-12-01 00:00:00' where emp_no=7
+[TRACE] [2020-02-15 20:45:34] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:45:37] pstmt - update employee set emp_name='ÏÑúÌòÑÏßÑ', title=3, salary=3000000, gender=1, dept=4, hire_date='2007-11-01 00:00:00' where emp_no=8
+[TRACE] [2020-02-15 20:45:37] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-15 20:46:04] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-15 20:46:07] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 17:45:07] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 17:45:24] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 17:45:36] Employee [empNo=9, empName=ÌòÑÏû¨Ïäπ, title=ÏÇ¨Ïõê, salary=1500000, gender=0, dept=Í∞úÎ∞ú(14Ï∏µ), hireDate=Sun Feb 16 17:45:24 KST 2020]
+[TRACE] [2020-02-16 17:45:36] pstmt - insert into employee (emp_no, emp_name, title, salary, gender, dept, hire_date) values (9,'ÌòÑÏû¨Ïäπ',5,1500000,0,3,'2020-02-16 17:45:24.409')
+[TRACE] [2020-02-16 17:45:36] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 17:45:44] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 17:52:55] pstmt - update employee set emp_name='ÌòÑÏû¨Ïäπ', title=3, salary=1500000, gender=0, dept=3, hire_date='2020-02-16 17:45:24' where emp_no=9
+[TRACE] [2020-02-16 17:52:55] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 18:20:37] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 18:24:06] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 18:26:47] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 18:27:59] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 18:28:52] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 18:29:17] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 18:32:28] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 18:33:35] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 18:35:14] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 18:35:33] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 18:37:25] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 18:39:28] pstmt - update employee set emp_name='Ï°∞ÎØºÌù¨', title=3, salary=2700000, gender=1, dept=2, hire_date='2005-07-01 00:00:00' where emp_no=3
+[TRACE] [2020-02-16 18:39:28] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 18:39:49] pstmt - delete from employee where emp_no=9
+[TRACE] [2020-02-16 18:40:03] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-16 18:40:32] pstmt - update department set dept_name = 'ÏòÅÏóÖ1', floor = 8 where dept_no = 1
+[TRACE] [2020-02-16 18:40:32] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-16 18:40:54] pstmt - insert into department values(5, 'ÎßàÏºÄÌåÖ', 13)
+[TRACE] [2020-02-16 18:40:59] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-16 18:41:01] pstmt - delete from department where dept_no = 5
+[TRACE] [2020-02-16 18:41:19] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 18:41:34] pstmt - insert into title values (8,'ÏïåÎ∞î')
+[TRACE] [2020-02-16 18:41:34] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 18:42:02] pstmt - update title set title_name = 'Ïù∏ÌÑ¥1' where title_no = 7
+[TRACE] [2020-02-16 18:42:02] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 18:42:16] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 18:42:18] pstmt - delete from title where title_no = 8
+[TRACE] [2020-02-16 18:42:21] pstmt - delete from title where title_no = 7
+[TRACE] [2020-02-16 18:56:37] setUpBeforeClass()
+[TRACE] [2020-02-16 18:56:37] setUp()
+[TRACE] [2020-02-16 18:56:37] test01SelectDepartmentByNo()
+[TRACE] [2020-02-16 18:56:38] pstmt - select dept_no, dept_name, floor from department where dept_no = 1
+[TRACE] [2020-02-16 18:56:38] øµæ˜1(8√˛)
+[TRACE] [2020-02-16 18:56:38] tearDown()
+[TRACE] [2020-02-16 18:56:38] setUp()
+[TRACE] [2020-02-16 18:56:38] test02SelectDepartmentByAll()
+[TRACE] [2020-02-16 18:56:38] øµæ˜1(8√˛)
+[TRACE] [2020-02-16 18:56:38] ¿ŒªÁ(12√˛)
+[TRACE] [2020-02-16 18:56:38] ∞≥πﬂ(14√˛)
+[TRACE] [2020-02-16 18:56:38] √—π´(9√˛)
+[TRACE] [2020-02-16 18:56:38] tearDown()
+[TRACE] [2020-02-16 18:56:38] setUp()
+[TRACE] [2020-02-16 18:56:38] test03InserDepartment()
+[TRACE] [2020-02-16 18:56:38] pstmt - insert into department values(5, '∏∂ƒ…∆√', 12)
+[TRACE] [2020-02-16 18:56:38] tearDown()
+[TRACE] [2020-02-16 18:56:38] setUp()
+[TRACE] [2020-02-16 18:56:38] test04UpdateDepartment()
+[TRACE] [2020-02-16 18:56:38] pstmt - update department set dept_name = '∏πŸ¿œ∞≥πﬂ', floor = 11 where dept_no = 5
+[TRACE] [2020-02-16 18:56:38] tearDown()
+[TRACE] [2020-02-16 18:56:38] setUp()
+[TRACE] [2020-02-16 18:56:38] test05DeleteDepartment()
+[TRACE] [2020-02-16 18:56:38] pstmt - delete from department where dept_no = 5
+[TRACE] [2020-02-16 18:56:38] tearDown()
+[TRACE] [2020-02-16 18:56:38] setUp()
+[TRACE] [2020-02-16 18:56:38] test06SelectDepartmentLastData()
+[TRACE] [2020-02-16 18:56:38] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-16 18:56:38] null(0√˛)
+[TRACE] [2020-02-16 18:56:38] tearDown()
+[TRACE] [2020-02-16 18:56:38] tearDownAfterClass()
+[TRACE] [2020-02-16 18:56:38] setUpBeforeClass()
+[TRACE] [2020-02-16 18:56:38] setUp()
+[TRACE] [2020-02-16 18:56:38] test01SelectEmployeeByNo()
+[TRACE] [2020-02-16 18:56:38] pstmt - select emp_no, emp_name, title, salary, gender, dept, hire_date from employee where emp_no = 3
+[TRACE] [2020-02-16 18:56:38] tearDown()
+[TRACE] [2020-02-16 18:56:38] setUp()
+[TRACE] [2020-02-16 18:56:38] test02SelectEmployeeByAll()
+[TRACE] [2020-02-16 18:56:38] tearDown()
+[TRACE] [2020-02-16 18:56:38] setUp()
+[TRACE] [2020-02-16 18:56:38] test03InsertEmployee()
+[TRACE] [2020-02-16 18:56:38] Employee [empNo=9, empName=¿Ã¿Ø∏Æ, title=null, salary=3000000, gender=1, dept=null(0√˛), hireDate=Sun Feb 16 18:56:38 KST 2020]
+[TRACE] [2020-02-16 18:56:38] pstmt - insert into employee (emp_no, emp_name, title, salary, gender, dept, hire_date) values (9,'¿Ã¿Ø∏Æ',3,3000000,1,2,'2020-02-16 18:56:38.072')
+[TRACE] [2020-02-16 18:56:38] tearDown()
+[TRACE] [2020-02-16 18:56:38] setUp()
+[TRACE] [2020-02-16 18:56:38] test04UpdateEmployee()
+[TRACE] [2020-02-16 18:56:38] Employee [empNo=9, empName=¿Ã¿Ø¡§, title=null, salary=3000000, gender=1, dept=null(0√˛), hireDate=Sun Feb 16 18:56:38 KST 2020]
+[TRACE] [2020-02-16 18:56:38] pstmt - update employee set emp_name='¿Ã¿Ø¡§', title=3, salary=3000000, gender=1, dept=2, hire_date='2020-02-16 18:56:38.081' where emp_no=9
+[TRACE] [2020-02-16 18:56:38] tearDown()
+[TRACE] [2020-02-16 18:56:38] setUp()
+[TRACE] [2020-02-16 18:56:38] test05DeleteEmployee()
+[TRACE] [2020-02-16 18:56:38] pstmt - delete from employee where emp_no=9
+[TRACE] [2020-02-16 18:56:38] tearDown()
+[TRACE] [2020-02-16 18:56:38] setUp()
+[TRACE] [2020-02-16 18:56:38] test06SelectEmployeeLastData()
+[TRACE] [2020-02-16 18:56:38] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 18:56:38] Employee [empNo=8, empName=null, title=null, salary=0, gender=0, dept=null, hireDate=null]
+[TRACE] [2020-02-16 18:56:38] tearDown()
+[TRACE] [2020-02-16 18:56:38] tearDownAfterClass()
+[TRACE] [2020-02-16 18:56:38] setUpBeforeClass()
+[TRACE] [2020-02-16 18:56:38] setUp()
+[TRACE] [2020-02-16 18:56:38] test01SelectTitleByNo()
+[TRACE] [2020-02-16 18:56:38] pstmt - select title_no, title_name from title where title_no=1
+[TRACE] [2020-02-16 18:56:38] ªÁ¿Â
+[TRACE] [2020-02-16 18:56:38] tearDown()
+[TRACE] [2020-02-16 18:56:38] setUp()
+[TRACE] [2020-02-16 18:56:38] test02SelectTitleByAll()
+[TRACE] [2020-02-16 18:56:38] ªÁ¿Â
+[TRACE] [2020-02-16 18:56:38] ∫Œ¿Â
+[TRACE] [2020-02-16 18:56:38] ∞˙¿Â
+[TRACE] [2020-02-16 18:56:38] ¥Î∏Æ
+[TRACE] [2020-02-16 18:56:38] ªÁø¯
+[TRACE] [2020-02-16 18:56:38] tearDown()
+[TRACE] [2020-02-16 18:56:38] setUp()
+[TRACE] [2020-02-16 18:56:38] test03InsertTitle()
+[TRACE] [2020-02-16 18:56:38] pstmt - insert into title values (6,'¿Œ≈œ')
+[TRACE] [2020-02-16 18:56:38] tearDown()
+[TRACE] [2020-02-16 18:56:38] setUp()
+[TRACE] [2020-02-16 18:56:38] test04UpdateTitle()
+[TRACE] [2020-02-16 18:56:38] pstmt - update title set title_name = '»∏¿Â' where title_no = 1
+[TRACE] [2020-02-16 18:56:38] tearDown()
+[TRACE] [2020-02-16 18:56:38] setUp()
+[TRACE] [2020-02-16 18:56:38] test05DeleteTitle()
+[TRACE] [2020-02-16 18:56:38] pstmt - delete from title where title_no = 6
+[TRACE] [2020-02-16 18:56:38] tearDown()
+[TRACE] [2020-02-16 18:56:38] setUp()
+[TRACE] [2020-02-16 18:56:38] test06SelectTitleLastData()
+[TRACE] [2020-02-16 18:56:38] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 18:56:38] null
+[TRACE] [2020-02-16 18:56:38] tearDown()
+[TRACE] [2020-02-16 18:56:38] tearDownAfterClass()
+[TRACE] [2020-02-16 18:56:38] setUpBeforeClass()
+[TRACE] [2020-02-16 18:56:38] setUp()
+[TRACE] [2020-02-16 18:56:38] test()
+[TRACE] [2020-02-16 18:56:38] HikariProxyConnection@717504577 wrapping com.mysql.jdbc.JDBC4Connection@cc0caf7
+[TRACE] [2020-02-16 18:56:38] tearDown()
+[TRACE] [2020-02-16 18:56:38] tearDownAfterClass()
+[TRACE] [2020-02-16 18:57:45] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 18:57:53] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 18:57:59] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 18:58:01] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-16 18:58:03] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-16 18:58:23] setUpBeforeClass()
+[TRACE] [2020-02-16 18:58:23] setUp()
+[TRACE] [2020-02-16 18:58:23] test01SelectEmployeeByNo()
+[TRACE] [2020-02-16 18:58:23] pstmt - select emp_no, emp_name, title, salary, gender, dept, hire_date from employee where emp_no = 3
+[TRACE] [2020-02-16 18:58:23] tearDown()
+[TRACE] [2020-02-16 18:58:23] setUp()
+[TRACE] [2020-02-16 18:58:23] test02SelectEmployeeByAll()
+[TRACE] [2020-02-16 18:58:23] tearDown()
+[TRACE] [2020-02-16 18:58:23] setUp()
+[TRACE] [2020-02-16 18:58:23] test03InsertEmployee()
+[TRACE] [2020-02-16 18:58:23] Employee [empNo=9, empName=¿Ã¿Ø∏Æ, title=null, salary=3000000, gender=1, dept=null(0√˛), hireDate=Sun Feb 16 18:58:23 KST 2020]
+[TRACE] [2020-02-16 18:58:23] pstmt - insert into employee (emp_no, emp_name, title, salary, gender, dept, hire_date) values (9,'¿Ã¿Ø∏Æ',3,3000000,1,2,'2020-02-16 18:58:23.637')
+[TRACE] [2020-02-16 18:58:23] tearDown()
+[TRACE] [2020-02-16 18:58:23] setUp()
+[TRACE] [2020-02-16 18:58:23] test04UpdateEmployee()
+[TRACE] [2020-02-16 18:58:23] Employee [empNo=9, empName=¿Ã¿Ø¡§, title=null, salary=3000000, gender=1, dept=null(0√˛), hireDate=Sun Feb 16 18:58:23 KST 2020]
+[TRACE] [2020-02-16 18:58:23] pstmt - update employee set emp_name='¿Ã¿Ø¡§', title=3, salary=3000000, gender=1, dept=2, hire_date='2020-02-16 18:58:23.646' where emp_no=9
+[TRACE] [2020-02-16 18:58:23] tearDown()
+[TRACE] [2020-02-16 18:58:23] setUp()
+[TRACE] [2020-02-16 18:58:23] test05DeleteEmployee()
+[TRACE] [2020-02-16 18:58:23] pstmt - delete from employee where emp_no=9
+[TRACE] [2020-02-16 18:58:23] tearDown()
+[TRACE] [2020-02-16 18:58:23] setUp()
+[TRACE] [2020-02-16 18:58:23] test06SelectEmployeeLastData()
+[TRACE] [2020-02-16 18:58:23] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 18:58:23] Employee [empNo=8, empName=null, title=null, salary=0, gender=0, dept=null, hireDate=null]
+[TRACE] [2020-02-16 18:58:23] tearDown()
+[TRACE] [2020-02-16 18:58:23] tearDownAfterClass()
+[TRACE] [2020-02-16 18:58:23] setUpBeforeClass()
+[TRACE] [2020-02-16 18:58:23] setUp()
+[TRACE] [2020-02-16 18:58:23] test01SelectDepartmentByNo()
+[TRACE] [2020-02-16 18:58:23] pstmt - select dept_no, dept_name, floor from department where dept_no = 1
+[TRACE] [2020-02-16 18:58:23] øµæ˜1(8√˛)
+[TRACE] [2020-02-16 18:58:23] tearDown()
+[TRACE] [2020-02-16 18:58:23] setUp()
+[TRACE] [2020-02-16 18:58:23] test02SelectDepartmentByAll()
+[TRACE] [2020-02-16 18:58:23] øµæ˜1(8√˛)
+[TRACE] [2020-02-16 18:58:23] ¿ŒªÁ(12√˛)
+[TRACE] [2020-02-16 18:58:23] ∞≥πﬂ(14√˛)
+[TRACE] [2020-02-16 18:58:23] √—π´(9√˛)
+[TRACE] [2020-02-16 18:58:23] tearDown()
+[TRACE] [2020-02-16 18:58:23] setUp()
+[TRACE] [2020-02-16 18:58:23] test03InserDepartment()
+[TRACE] [2020-02-16 18:58:23] pstmt - insert into department values(5, '∏∂ƒ…∆√', 12)
+[TRACE] [2020-02-16 18:58:23] tearDown()
+[TRACE] [2020-02-16 18:58:23] setUp()
+[TRACE] [2020-02-16 18:58:23] test04UpdateDepartment()
+[TRACE] [2020-02-16 18:58:23] pstmt - update department set dept_name = '∏πŸ¿œ∞≥πﬂ', floor = 11 where dept_no = 5
+[TRACE] [2020-02-16 18:58:23] tearDown()
+[TRACE] [2020-02-16 18:58:23] setUp()
+[TRACE] [2020-02-16 18:58:23] test05DeleteDepartment()
+[TRACE] [2020-02-16 18:58:23] pstmt - delete from department where dept_no = 5
+[TRACE] [2020-02-16 18:58:23] tearDown()
+[TRACE] [2020-02-16 18:58:23] setUp()
+[TRACE] [2020-02-16 18:58:23] test06SelectDepartmentLastData()
+[TRACE] [2020-02-16 18:58:23] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-16 18:58:23] null(0√˛)
+[TRACE] [2020-02-16 18:58:23] tearDown()
+[TRACE] [2020-02-16 18:58:23] tearDownAfterClass()
+[TRACE] [2020-02-16 18:58:23] setUpBeforeClass()
+[TRACE] [2020-02-16 18:58:23] setUp()
+[TRACE] [2020-02-16 18:58:23] test01SelectTitleByNo()
+[TRACE] [2020-02-16 18:58:23] pstmt - select title_no, title_name from title where title_no=1
+[TRACE] [2020-02-16 18:58:23] »∏¿Â
+[TRACE] [2020-02-16 18:58:23] tearDown()
+[TRACE] [2020-02-16 18:58:23] setUp()
+[TRACE] [2020-02-16 18:58:23] test02SelectTitleByAll()
+[TRACE] [2020-02-16 18:58:23] »∏¿Â
+[TRACE] [2020-02-16 18:58:23] ∫Œ¿Â
+[TRACE] [2020-02-16 18:58:23] ∞˙¿Â
+[TRACE] [2020-02-16 18:58:23] ¥Î∏Æ
+[TRACE] [2020-02-16 18:58:23] ªÁø¯
+[TRACE] [2020-02-16 18:58:23] tearDown()
+[TRACE] [2020-02-16 18:58:23] setUp()
+[TRACE] [2020-02-16 18:58:23] test03InsertTitle()
+[TRACE] [2020-02-16 18:58:23] pstmt - insert into title values (6,'¿Œ≈œ')
+[TRACE] [2020-02-16 18:58:23] tearDown()
+[TRACE] [2020-02-16 18:58:23] setUp()
+[TRACE] [2020-02-16 18:58:23] test04UpdateTitle()
+[TRACE] [2020-02-16 18:58:23] pstmt - update title set title_name = '»∏¿Â' where title_no = 1
+[TRACE] [2020-02-16 18:58:23] tearDown()
+[TRACE] [2020-02-16 18:58:23] setUp()
+[TRACE] [2020-02-16 18:58:23] test05DeleteTitle()
+[TRACE] [2020-02-16 18:58:23] pstmt - delete from title where title_no = 6
+[TRACE] [2020-02-16 18:58:23] tearDown()
+[TRACE] [2020-02-16 18:58:23] setUp()
+[TRACE] [2020-02-16 18:58:23] test06SelectTitleLastData()
+[TRACE] [2020-02-16 18:58:23] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 18:58:23] null
+[TRACE] [2020-02-16 18:58:23] tearDown()
+[TRACE] [2020-02-16 18:58:23] tearDownAfterClass()
+[TRACE] [2020-02-16 18:58:23] setUpBeforeClass()
+[TRACE] [2020-02-16 18:58:23] setUp()
+[TRACE] [2020-02-16 18:58:23] test()
+[TRACE] [2020-02-16 18:58:23] HikariProxyConnection@717504577 wrapping com.mysql.jdbc.JDBC4Connection@cc0caf7
+[TRACE] [2020-02-16 18:58:23] tearDown()
+[TRACE] [2020-02-16 18:58:23] tearDownAfterClass()
+[TRACE] [2020-02-16 19:05:53] setUpBeforeClass()
+[TRACE] [2020-02-16 19:05:53] setUp()
+[TRACE] [2020-02-16 19:05:53] test01SelectEmployeeByNo()
+[TRACE] [2020-02-16 19:05:53] pstmt - select e.emp_no, e.emp_name, t.title_no, t.title_name, e.salary, e.gender, d.dept_no, d.dept_name, d.floor, e.hire_date  from employee e left join title t on e.title = t.title_no                  left join department d on e.dept = d.dept_no where e.emp_no=3
+[TRACE] [2020-02-16 19:05:53] Employee [empNo=3, empName=¡∂πŒ»Ò, title=null, salary=2700000, gender=1, dept=null(0√˛), hireDate=2005-07-01 00:00:00.0]
+[TRACE] [2020-02-16 19:05:53] 2005-07-01 - 00:00:00 2005≥‚ 07ø˘ 01¿œ 00Ω√ 00∫– 00√  
+[TRACE] [2020-02-16 19:05:53] 2005 ≥‚
+[TRACE] [2020-02-16 19:05:53] 7 ø˘
+[TRACE] [2020-02-16 19:05:53] 1 ¿œ
+[TRACE] [2020-02-16 19:05:53] 0Ω√ 0∫– 0√ 
+[TRACE] [2020-02-16 19:05:53] tearDown()
+[TRACE] [2020-02-16 19:05:53] setUp()
+[TRACE] [2020-02-16 19:05:53] test02SelectEmployeeByAll()
+[TRACE] [2020-02-16 19:05:53] tearDown()
+[TRACE] [2020-02-16 19:05:53] setUp()
+[TRACE] [2020-02-16 19:05:53] test03InsertEmployee()
+[TRACE] [2020-02-16 19:05:53] Employee [empNo=9, empName=¿Ã¿Ø∏Æ, title=null, salary=3000000, gender=1, dept=null(0√˛), hireDate=Sun Feb 16 19:05:53 KST 2020]
+[TRACE] [2020-02-16 19:05:53] pstmt - insert into employee (emp_no, emp_name, title, salary, gender, dept, hire_date) values (9,'¿Ã¿Ø∏Æ',3,3000000,1,2,'2020-02-16 19:05:53.35')
+[TRACE] [2020-02-16 19:05:53] tearDown()
+[TRACE] [2020-02-16 19:05:53] setUp()
+[TRACE] [2020-02-16 19:05:53] test04UpdateEmployee()
+[TRACE] [2020-02-16 19:05:53] Employee [empNo=9, empName=¿Ã¿Ø¡§, title=null, salary=3000000, gender=1, dept=null(0√˛), hireDate=Sun Feb 16 19:05:53 KST 2020]
+[TRACE] [2020-02-16 19:05:53] pstmt - update employee set emp_name='¿Ã¿Ø¡§', title=3, salary=3000000, gender=1, dept=2, hire_date='2020-02-16 19:05:53.36' where emp_no=9
+[TRACE] [2020-02-16 19:05:53] tearDown()
+[TRACE] [2020-02-16 19:05:53] setUp()
+[TRACE] [2020-02-16 19:05:53] test05DeleteEmployee()
+[TRACE] [2020-02-16 19:05:53] pstmt - delete from employee where emp_no=9
+[TRACE] [2020-02-16 19:05:53] tearDown()
+[TRACE] [2020-02-16 19:05:53] setUp()
+[TRACE] [2020-02-16 19:05:53] test06SelectEmployeeLastData()
+[TRACE] [2020-02-16 19:05:53] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 19:05:53] Employee [empNo=8, empName=null, title=null, salary=0, gender=0, dept=null, hireDate=null]
+[TRACE] [2020-02-16 19:05:53] tearDown()
+[TRACE] [2020-02-16 19:05:53] tearDownAfterClass()
+[TRACE] [2020-02-16 19:05:53] setUpBeforeClass()
+[TRACE] [2020-02-16 19:05:53] setUp()
+[TRACE] [2020-02-16 19:05:53] test01SelectDepartmentByNo()
+[TRACE] [2020-02-16 19:05:53] pstmt - select dept_no, dept_name, floor from department where dept_no = 1
+[TRACE] [2020-02-16 19:05:53] øµæ˜1(8√˛)
+[TRACE] [2020-02-16 19:05:53] tearDown()
+[TRACE] [2020-02-16 19:05:53] setUp()
+[TRACE] [2020-02-16 19:05:53] test02SelectDepartmentByAll()
+[TRACE] [2020-02-16 19:05:53] øµæ˜1(8√˛)
+[TRACE] [2020-02-16 19:05:53] ¿ŒªÁ(12√˛)
+[TRACE] [2020-02-16 19:05:53] ∞≥πﬂ(14√˛)
+[TRACE] [2020-02-16 19:05:53] √—π´(9√˛)
+[TRACE] [2020-02-16 19:05:53] tearDown()
+[TRACE] [2020-02-16 19:05:53] setUp()
+[TRACE] [2020-02-16 19:05:53] test03InserDepartment()
+[TRACE] [2020-02-16 19:05:53] pstmt - insert into department values(5, '∏∂ƒ…∆√', 12)
+[TRACE] [2020-02-16 19:05:53] tearDown()
+[TRACE] [2020-02-16 19:05:53] setUp()
+[TRACE] [2020-02-16 19:05:53] test04UpdateDepartment()
+[TRACE] [2020-02-16 19:05:53] pstmt - update department set dept_name = '∏πŸ¿œ∞≥πﬂ', floor = 11 where dept_no = 5
+[TRACE] [2020-02-16 19:05:53] tearDown()
+[TRACE] [2020-02-16 19:05:53] setUp()
+[TRACE] [2020-02-16 19:05:53] test05DeleteDepartment()
+[TRACE] [2020-02-16 19:05:53] pstmt - delete from department where dept_no = 5
+[TRACE] [2020-02-16 19:05:53] tearDown()
+[TRACE] [2020-02-16 19:05:53] setUp()
+[TRACE] [2020-02-16 19:05:53] test06SelectDepartmentLastData()
+[TRACE] [2020-02-16 19:05:53] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-16 19:05:53] null(0√˛)
+[TRACE] [2020-02-16 19:05:53] tearDown()
+[TRACE] [2020-02-16 19:05:53] tearDownAfterClass()
+[TRACE] [2020-02-16 19:05:53] setUpBeforeClass()
+[TRACE] [2020-02-16 19:05:53] setUp()
+[TRACE] [2020-02-16 19:05:53] test01SelectTitleByNo()
+[TRACE] [2020-02-16 19:05:53] pstmt - select title_no, title_name from title where title_no=1
+[TRACE] [2020-02-16 19:05:53] »∏¿Â
+[TRACE] [2020-02-16 19:05:53] tearDown()
+[TRACE] [2020-02-16 19:05:53] setUp()
+[TRACE] [2020-02-16 19:05:53] test02SelectTitleByAll()
+[TRACE] [2020-02-16 19:05:53] »∏¿Â
+[TRACE] [2020-02-16 19:05:53] ∫Œ¿Â
+[TRACE] [2020-02-16 19:05:53] ∞˙¿Â
+[TRACE] [2020-02-16 19:05:53] ¥Î∏Æ
+[TRACE] [2020-02-16 19:05:53] ªÁø¯
+[TRACE] [2020-02-16 19:05:53] tearDown()
+[TRACE] [2020-02-16 19:05:53] setUp()
+[TRACE] [2020-02-16 19:05:53] test03InsertTitle()
+[TRACE] [2020-02-16 19:05:53] pstmt - insert into title values (6,'¿Œ≈œ')
+[TRACE] [2020-02-16 19:05:53] tearDown()
+[TRACE] [2020-02-16 19:05:53] setUp()
+[TRACE] [2020-02-16 19:05:53] test04UpdateTitle()
+[TRACE] [2020-02-16 19:05:53] pstmt - update title set title_name = '»∏¿Â' where title_no = 1
+[TRACE] [2020-02-16 19:05:53] tearDown()
+[TRACE] [2020-02-16 19:05:53] setUp()
+[TRACE] [2020-02-16 19:05:53] test05DeleteTitle()
+[TRACE] [2020-02-16 19:05:53] pstmt - delete from title where title_no = 6
+[TRACE] [2020-02-16 19:05:53] tearDown()
+[TRACE] [2020-02-16 19:05:53] setUp()
+[TRACE] [2020-02-16 19:05:53] test06SelectTitleLastData()
+[TRACE] [2020-02-16 19:05:53] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 19:05:53] null
+[TRACE] [2020-02-16 19:05:53] tearDown()
+[TRACE] [2020-02-16 19:05:53] tearDownAfterClass()
+[TRACE] [2020-02-16 19:05:53] setUpBeforeClass()
+[TRACE] [2020-02-16 19:05:53] setUp()
+[TRACE] [2020-02-16 19:05:53] test()
+[TRACE] [2020-02-16 19:05:53] HikariProxyConnection@1564636041 wrapping com.mysql.jdbc.JDBC4Connection@38347d6c
+[TRACE] [2020-02-16 19:05:53] tearDown()
+[TRACE] [2020-02-16 19:05:53] tearDownAfterClass()
+[TRACE] [2020-02-16 19:06:17] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 19:09:28] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 19:09:29] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 19:10:30] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 19:10:31] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 19:12:51] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 19:12:52] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 19:12:53] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 19:12:54] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 19:13:18] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 19:13:19] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 19:13:54] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-16 19:14:14] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-16 19:15:12] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 19:15:16] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-16 19:15:23] pstmt - update department set dept_name = 'ÏòÅÏóÖ', floor = 8 where dept_no = 1
+[TRACE] [2020-02-16 19:15:23] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-16 19:15:26] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 19:15:35] pstmt - update title set title_name = 'ÏÇ¨Ïû•' where title_no = 1
+[TRACE] [2020-02-16 19:15:35] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 19:16:00] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 19:19:23] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 19:21:56] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-16 19:22:20] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-16 19:25:04] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 19:25:40] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 19:26:04] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 19:26:31] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 19:27:00] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-16 19:27:54] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-16 19:28:44] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 19:28:48] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 20:24:36] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 20:24:41] pstmt - insert into title values (6,'ds')
+[TRACE] [2020-02-16 20:24:41] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 20:24:52] pstmt - delete from title where title_no = 5
+[TRACE] [2020-02-16 20:24:54] pstmt - delete from title where title_no = 5
+[TRACE] [2020-02-16 20:24:58] pstmt - insert into title values (7,'sdafsa')
+[TRACE] [2020-02-16 20:24:58] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 20:25:01] pstmt - delete from title where title_no = 5
+[TRACE] [2020-02-16 20:25:04] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 20:25:24] pstmt - insert into title values (8,'Ï∂îÍ∞Ä')
+[TRACE] [2020-02-16 20:25:24] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 20:25:27] pstmt - delete from title where title_no = 5
+[TRACE] [2020-02-16 20:25:31] pstmt - insert into title values (9,'ÏïÑÍπå')
+[TRACE] [2020-02-16 20:25:31] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 20:25:40] pstmt - update title set title_name = 'ÏÇ¨Ïõê' where title_no = 5
+[TRACE] [2020-02-16 20:25:40] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 20:43:49] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 20:43:57] pstmt - delete from title where title_no = 6
+[TRACE] [2020-02-16 20:43:59] pstmt - delete from title where title_no = 6
+[TRACE] [2020-02-16 20:44:00] pstmt - delete from title where title_no = 6
+[TRACE] [2020-02-16 20:44:01] pstmt - delete from title where title_no = 6
+[TRACE] [2020-02-16 20:44:26] pstmt - insert into title values (0,'Ïù∏ÌÑ¥')
+[TRACE] [2020-02-16 20:44:26] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 20:44:40] pstmt - insert into title values (1,'Ïù¥ÎØ∏')
+[TRACE] [2020-02-16 20:44:40] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 20:45:01] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 20:45:17] pstmt - delete from title where title_no = 7
+[TRACE] [2020-02-16 20:45:18] pstmt - delete from title where title_no = 7
+[TRACE] [2020-02-16 20:45:20] pstmt - delete from title where title_no = 7
+[TRACE] [2020-02-16 20:45:21] pstmt - delete from title where title_no = 7
+[TRACE] [2020-02-16 20:45:28] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 20:46:02] pstmt - delete from title where title_no = 9
+[TRACE] [2020-02-16 20:46:12] pstmt - delete from title where title_no = 9
+[TRACE] [2020-02-16 20:46:28] pstmt - delete from title where title_no = 8
+[TRACE] [2020-02-16 20:46:52] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 20:46:54] pstmt - delete from title where title_no = 10
+[TRACE] [2020-02-16 20:47:11] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 20:47:28] pstmt - insert into title values (6,'Ïù∏ÌÑ¥')
+[TRACE] [2020-02-16 20:47:28] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 20:48:03] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 20:48:06] pstmt - delete from title where title_no = 6
+[TRACE] [2020-02-16 20:48:14] pstmt - delete from title where title_no = 5
+[TRACE] [2020-02-16 20:48:40] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 20:48:57] pstmt - insert into title values (6,'Ïù∏ÌÑ¥')
+[TRACE] [2020-02-16 20:48:57] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 20:49:06] pstmt - insert into title values (7,'ÏïåÎ∞î')
+[TRACE] [2020-02-16 20:49:06] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 20:49:19] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 20:49:21] pstmt - delete from title where title_no = 7
+[TRACE] [2020-02-16 20:49:24] pstmt - delete from title where title_no = 6
+[TRACE] [2020-02-16 20:49:36] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-16 20:49:42] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 20:50:17] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 20:50:39] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 20:51:01] pstmt - delete from employee where emp_no=8
+[TRACE] [2020-02-16 20:51:22] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 20:51:48] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 20:52:16] Employee [empNo=8, empName=ÏÑúÌòÑÏßÑ, title=Î∂ÄÏû•, salary=4000000, gender=1, dept=Ï¥ùÎ¨¥(9Ï∏µ), hireDate=Sun Feb 16 20:51:47 KST 2020]
+[TRACE] [2020-02-16 20:52:16] pstmt - insert into employee (emp_no, emp_name, title, salary, gender, dept, hire_date) values (8,'ÏÑúÌòÑÏßÑ',2,4000000,1,4,'2020-02-16 20:51:47.182')
+[TRACE] [2020-02-16 20:52:16] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 20:52:23] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-16 20:52:44] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-16 20:52:50] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-17 14:25:26] setUpBeforeClass()
+[TRACE] [2020-02-17 14:25:26] setUp()
+[TRACE] [2020-02-17 14:25:26] test()
+[TRACE] [2020-02-17 14:25:27] HikariProxyConnection@686466458 wrapping com.mysql.jdbc.JDBC4Connection@3427b02d
+[TRACE] [2020-02-17 14:25:27] tearDown()
+[TRACE] [2020-02-17 14:25:27] tearDownAfterClass()
+[TRACE] [2020-02-17 14:37:14] setUpBeforeClass()
+[TRACE] [2020-02-17 14:37:14] setUp()
+[TRACE] [2020-02-17 14:37:14] test01SelectEmployeeByNo()
+[TRACE] [2020-02-17 14:37:14] pstmt - select e.emp_no, e.emp_name, t.title_no, t.title_name, e.salary, e.gender, d.dept_no, d.dept_name, d.floor, e.hire_date  from employee e left join title t on e.title = t.title_no                  left join department d on e.dept = d.dept_no where e.emp_no=3
+[TRACE] [2020-02-17 14:37:14] Employee [empNo=3, empName=Ï°∞ÎØºÌù¨, title=null, salary=2700000, gender=1, dept=null(0Ï∏µ), hireDate=2005-07-01 00:00:00.0]
+[TRACE] [2020-02-17 14:37:14] 2005-07-01 - 00:00:00 2005ÎÖÑ 07Ïõî 01Ïùº 00Ïãú 00Î∂Ñ 00Ï¥à 
+[TRACE] [2020-02-17 14:37:14] 2005 ÎÖÑ
+[TRACE] [2020-02-17 14:37:14] 7 Ïõî
+[TRACE] [2020-02-17 14:37:14] 1 Ïùº
+[TRACE] [2020-02-17 14:37:14] 0Ïãú 0Î∂Ñ 0Ï¥à
+[TRACE] [2020-02-17 14:37:14] tearDown()
+[TRACE] [2020-02-17 14:37:14] setUp()
+[TRACE] [2020-02-17 14:37:14] test02SelectEmployeeByAll()
+[TRACE] [2020-02-17 14:37:14] tearDown()
+[TRACE] [2020-02-17 14:37:14] setUp()
+[TRACE] [2020-02-17 14:37:14] test03InsertEmployee()
+[TRACE] [2020-02-17 14:37:14] Employee [empNo=9, empName=Ïù¥Ïú†Î¶¨, title=null, salary=3000000, gender=1, dept=null(0Ï∏µ), hireDate=Mon Feb 17 14:37:14 KST 2020]
+[TRACE] [2020-02-17 14:37:14] pstmt - insert into employee (emp_no, emp_name, title, salary, gender, dept, hire_date) values (9,'Ïù¥Ïú†Î¶¨',3,3000000,1,2,'2020-02-17 14:37:14.39')
+[TRACE] [2020-02-17 14:37:14] tearDown()
+[TRACE] [2020-02-17 14:37:14] setUp()
+[TRACE] [2020-02-17 14:37:14] test04UpdateEmployee()
+[TRACE] [2020-02-17 14:37:14] Employee [empNo=9, empName=Ïù¥Ïú†Ï†ï, title=null, salary=3000000, gender=1, dept=null(0Ï∏µ), hireDate=Mon Feb 17 14:37:14 KST 2020]
+[TRACE] [2020-02-17 14:37:14] pstmt - update employee set emp_name='Ïù¥Ïú†Ï†ï', title=3, salary=3000000, gender=1, dept=2, hire_date='2020-02-17 14:37:14.402' where emp_no=9
+[TRACE] [2020-02-17 14:37:14] tearDown()
+[TRACE] [2020-02-17 14:37:14] setUp()
+[TRACE] [2020-02-17 14:37:14] test05DeleteEmployee()
+[TRACE] [2020-02-17 14:37:14] pstmt - delete from employee where emp_no=9
+[TRACE] [2020-02-17 14:37:14] tearDown()
+[TRACE] [2020-02-17 14:37:14] setUp()
+[TRACE] [2020-02-17 14:37:14] test06SelectEmployeeLastData()
+[TRACE] [2020-02-17 14:37:14] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-17 14:37:14] Employee [empNo=8, empName=null, title=null, salary=0, gender=0, dept=null, hireDate=null]
+[TRACE] [2020-02-17 14:37:14] tearDown()
+[TRACE] [2020-02-17 14:37:14] tearDownAfterClass()
+[TRACE] [2020-02-17 14:38:37] setUpBeforeClass()
+[TRACE] [2020-02-17 14:38:37] setUp()
+[TRACE] [2020-02-17 14:38:37] test01SelectTitleByNo()
+[TRACE] [2020-02-17 14:38:37] pstmt - select title_no, title_name from title where title_no=1
+[TRACE] [2020-02-17 14:38:37] ÏÇ¨Ïû•
+[TRACE] [2020-02-17 14:38:37] tearDown()
+[TRACE] [2020-02-17 14:38:37] setUp()
+[TRACE] [2020-02-17 14:38:37] test02SelectTitleByAll()
+[TRACE] [2020-02-17 14:38:37] ÏÇ¨Ïû•
+[TRACE] [2020-02-17 14:38:37] Î∂ÄÏû•
+[TRACE] [2020-02-17 14:38:37] Í≥ºÏû•
+[TRACE] [2020-02-17 14:38:37] ÎåÄÎ¶¨
+[TRACE] [2020-02-17 14:38:37] ÏÇ¨Ïõê
+[TRACE] [2020-02-17 14:38:37] tearDown()
+[TRACE] [2020-02-17 14:38:37] setUp()
+[TRACE] [2020-02-17 14:38:37] test03InsertTitle()
+[TRACE] [2020-02-17 14:38:37] pstmt - insert into title values (6,'Ïù∏ÌÑ¥')
+[TRACE] [2020-02-17 14:38:37] tearDown()
+[TRACE] [2020-02-17 14:38:37] setUp()
+[TRACE] [2020-02-17 14:38:37] test04UpdateTitle()
+[TRACE] [2020-02-17 14:38:37] pstmt - update title set title_name = 'ÌöåÏû•' where title_no = 1
+[TRACE] [2020-02-17 14:38:37] tearDown()
+[TRACE] [2020-02-17 14:38:37] setUp()
+[TRACE] [2020-02-17 14:38:37] test05DeleteTitle()
+[TRACE] [2020-02-17 14:38:37] pstmt - delete from title where title_no = 6
+[TRACE] [2020-02-17 14:38:37] tearDown()
+[TRACE] [2020-02-17 14:38:37] setUp()
+[TRACE] [2020-02-17 14:38:37] test06SelectTitleLastData()
+[TRACE] [2020-02-17 14:38:37] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-17 14:38:37] null
+[TRACE] [2020-02-17 14:38:37] tearDown()
+[TRACE] [2020-02-17 14:38:37] tearDownAfterClass()
+[TRACE] [2020-02-17 14:40:31] setUpBeforeClass()
+[TRACE] [2020-02-17 14:40:31] setUp()
+[TRACE] [2020-02-17 14:40:31] test01SelectDepartmentByNo()
+[TRACE] [2020-02-17 14:40:32] pstmt - select dept_no, dept_name, floor from department where dept_no = 1
+[TRACE] [2020-02-17 14:40:32] ÏòÅÏóÖ(8Ï∏µ)
+[TRACE] [2020-02-17 14:40:32] tearDown()
+[TRACE] [2020-02-17 14:40:32] setUp()
+[TRACE] [2020-02-17 14:40:32] test02SelectDepartmentByAll()
+[TRACE] [2020-02-17 14:40:32] ÏòÅÏóÖ(8Ï∏µ)
+[TRACE] [2020-02-17 14:40:32] Ïù∏ÏÇ¨(12Ï∏µ)
+[TRACE] [2020-02-17 14:40:32] Í∞úÎ∞ú(14Ï∏µ)
+[TRACE] [2020-02-17 14:40:32] Ï¥ùÎ¨¥(9Ï∏µ)
+[TRACE] [2020-02-17 14:40:32] tearDown()
+[TRACE] [2020-02-17 14:40:32] setUp()
+[TRACE] [2020-02-17 14:40:32] test03InserDepartment()
+[TRACE] [2020-02-17 14:40:32] pstmt - insert into department values(5, 'ÎßàÏºÄÌåÖ', 12)
+[TRACE] [2020-02-17 14:40:32] tearDown()
+[TRACE] [2020-02-17 14:40:32] setUp()
+[TRACE] [2020-02-17 14:40:32] test04UpdateDepartment()
+[TRACE] [2020-02-17 14:40:32] pstmt - update department set dept_name = 'Î™®Î∞îÏùºÍ∞úÎ∞ú', floor = 11 where dept_no = 5
+[TRACE] [2020-02-17 14:40:32] tearDown()
+[TRACE] [2020-02-17 14:40:32] setUp()
+[TRACE] [2020-02-17 14:40:32] test05DeleteDepartment()
+[TRACE] [2020-02-17 14:40:32] pstmt - delete from department where dept_no = 5
+[TRACE] [2020-02-17 14:40:32] tearDown()
+[TRACE] [2020-02-17 14:40:32] setUp()
+[TRACE] [2020-02-17 14:40:32] test06SelectDepartmentLastData()
+[TRACE] [2020-02-17 14:40:32] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-17 14:40:32] null(0Ï∏µ)
+[TRACE] [2020-02-17 14:40:32] tearDown()
+[TRACE] [2020-02-17 14:40:32] tearDownAfterClass()
+[TRACE] [2020-02-17 15:15:51] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-17 15:16:02] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-17 15:16:05] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-17 15:16:37] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-17 15:18:37] Employee [empNo=9, empName=ÌòÑÏû¨Ïäπ, title=ÌöåÏû•, salary=1000000, gender=0, dept=ÏòÅÏóÖ(8Ï∏µ), hireDate=Mon Feb 17 15:16:36 KST 2020]
+[TRACE] [2020-02-17 15:18:37] pstmt - insert into employee (emp_no, emp_name, title, salary, gender, dept, hire_date) values (9,'ÌòÑÏû¨Ïäπ',1,1000000,0,1,'2020-02-17 15:16:36.396')
+[TRACE] [2020-02-17 15:18:37] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-17 15:19:18] Employee [empNo=0, empName=Î∞∞ÏßÑÏö∞, title=ÎåÄÎ¶¨, salary=2000000, gender=1, dept=Í∞úÎ∞ú(14Ï∏µ), hireDate=Sun Feb 16 15:18:37 KST 2020]
+[TRACE] [2020-02-17 15:19:18] pstmt - insert into employee (emp_no, emp_name, title, salary, gender, dept, hire_date) values (0,'Î∞∞ÏßÑÏö∞',4,2000000,1,3,'2020-02-16 15:18:37.275')
+[TRACE] [2020-02-17 15:19:18] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-17 15:20:47] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-17 15:21:06] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-17 15:22:43] pstmt - update employee set emp_name='ÍπÄÏ∞ΩÏÑ≠2', title=3, salary=2900000, gender=0, dept=1, hire_date='2010-12-01 00:00:00' where emp_no=5
+[TRACE] [2020-02-17 15:22:43] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-17 15:23:09] pstmt - delete from employee where emp_no=1
+[TRACE] [2020-02-17 15:23:21] pstmt - delete from employee where emp_no=3
+[TRACE] [2020-02-17 15:23:47] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-17 15:24:04] pstmt - insert into department values(5, 'ÎßàÏºÄÌåÖ', 13)
+[TRACE] [2020-02-17 15:24:32] pstmt - update department set dept_name = 'Í∞úÎ∞ú2', floor = 10 where dept_no = 3
+[TRACE] [2020-02-17 15:24:32] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-17 15:24:51] pstmt - delete from department where dept_no = 3
+[TRACE] [2020-02-17 15:25:00] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-17 15:25:06] pstmt - insert into title values (6,'Ïù∏ÌÑ¥')
+[TRACE] [2020-02-17 15:25:06] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-17 15:25:17] pstmt - update title set title_name = 'ÎåÄÎ¶¨3' where title_no = 4
+[TRACE] [2020-02-17 15:25:17] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-17 15:25:21] pstmt - delete from title where title_no = 3
+[TRACE] [2020-02-17 20:21:42] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-18 20:23:18] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-21 15:43:37] pstmt - select emp_no from employee order by emp_no desc limit 1
+[TRACE] [2020-02-21 15:43:42] pstmt - select dept_no from department order by dept_no desc limit 1
+[TRACE] [2020-02-21 15:43:48] pstmt - select title_no from title order by title_no desc limit 1
+[TRACE] [2020-02-21 16:59:17] pstmt - select emp_no from employee order by emp_no desc limit 1
